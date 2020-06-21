@@ -1,9 +1,0 @@
-{
-    "type": "smelting",
-    "ingredient": {
-        "item": "minecraft:dirt"
-    },
-    "result": "minecraft:diamond",
-    "experience": 100000,
-    "cookingtime": 100
-}
