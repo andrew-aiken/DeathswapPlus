@@ -1,4 +1,5 @@
 {
+	"type": "minecraft:oak_log",
     "pools": [
         {
             "rolls": 1,
