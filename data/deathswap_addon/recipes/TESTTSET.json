@@ -1,7 +1,7 @@
 {
     "type": "smelting",
     "ingredient": {
-        "item": "minecraft:iron_ore"
+        "item": "minecraft:dirt"
     },
     "result": "minecraft:diamond",
     "experience": 100,
