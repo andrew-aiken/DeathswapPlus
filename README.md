@@ -1,6 +1,11 @@
 # Deathswap+
 Minecraft function addon for deathswap
 
+
+# ADD
+Added wool to string
+
+
 <h2>CREDIT</h2>
 The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
