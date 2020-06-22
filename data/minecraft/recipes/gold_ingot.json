@@ -4,6 +4,6 @@
         "item": "minecraft:gold_ore"
     },
     "result": "minecraft:gold_ingot",
-    "experience": 1,
+    "experience": 3.0,
     "cookingtime": 25
 }
