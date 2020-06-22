@@ -18,4 +18,4 @@ the positions are swapped you kill the opponent by trapping em. The last player 
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
 
-![alt text](C:\Users\legol\Desktop\datapack_Custome_Deathswap\DeathSwap_Images\Enderpearl.png "Title")
+![alt text](C:\Users\legol\Desktop\datapack_Custome_Deathswap\Deathswap_addon\githubImages\Enderpearl.png "Title")
