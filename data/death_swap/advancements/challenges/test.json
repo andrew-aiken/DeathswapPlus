@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "custom_test_name": {
+            "trigger": "minecraft:bred_animals"
+        },
+        "take_damage": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    }
+}
