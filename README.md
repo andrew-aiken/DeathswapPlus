@@ -18,4 +18,4 @@ the positions are swapped you kill the opponent by trapping em. The last player 
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
 
-![alt text](githubImages/Enderpearl.png "Title")
+![alt text](githubImages/Enderpearl.png "Title"){:height="700px" width="400px"}
