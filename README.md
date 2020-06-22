@@ -1,7 +1,7 @@
 # Deathswap +Addon
 Minecraft function addon for deathswap
 
-<h2>Credit</h2>
+<h2>CREDIT</h2>
 The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
 - Creator: \_Raph\_
@@ -17,5 +17,3 @@ Description: This minigame is called death swap. Every few minutes, you will swi
 the positions are swapped you kill the opponent by trapping em. The last player to live is the winner.
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game. I updated it and made it work with multiple players rather than 2.
-
-https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
