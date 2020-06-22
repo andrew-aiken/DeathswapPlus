@@ -2,10 +2,14 @@
 Minecraft function addon for deathswap
 
 <h2>Credit</h2>
-1. The main is build off of the datapack, originally found from: [Link to Reddit post](https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/)
+1. The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
 - Creator: \_Raph\_
 - Contact: pro.raphaelromeo1@gmail.com
+
+2. Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
+
+- Creator: SuperBuildcraft
 
 
 <h2>How 2 Play</h2>
@@ -14,4 +18,4 @@ the positions are swapped you kill the opponent by trapping em. The last player 
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game. I updated it and made it work with multiple players rather than 2.
 
-https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
+https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
