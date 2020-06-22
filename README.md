@@ -30,4 +30,5 @@ Craft mob eggs for traps:
 
 Other custom recipes:    
 <img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200">
-<img src="githubImages/LavaBucket.png" width="200">     `You can use any type of log`
+<img src="githubImages/LavaBucket.png" width="200">     
+`You can use any type of log`
