@@ -1,4 +1,4 @@
-# Deathswap +Addon
+# Deathswap+
 Minecraft function addon for deathswap
 
 <h2>CREDIT</h2>
