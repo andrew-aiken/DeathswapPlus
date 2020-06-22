@@ -1,12 +1,9 @@
 {
-    "type": "crafting_shapeless",
-    "group": "wooden_button",
-    "ingredients": [
-        {
-            "item": "minecraft:acacia_planks"
-        }
-    ],
-    "result": {
-        "item": "minecraft:dirt"
-    }
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:iron_ore"
+    },
+    "result": "minecraft:diamond",
+    "experience": 0.4,
+    "cookingtime": 20
 }
