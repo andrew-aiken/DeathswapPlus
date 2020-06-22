@@ -21,8 +21,12 @@ Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created 
 <h2>CRAFTING</h2>
 
 Inventory Smelt:   
-<img src="githubImages/Iron.png" width="200"> <img src="githubImages/Gold.png" width="200">
+<img src="githubImages/Iron.png" width="200"> <img src="githubImages/Gold.png" width="200">    
 
 Craft mob eggs for traps:    
-
 <img src="githubImages/CreeperEgg.png" width="200"> <img src="githubImages/SpiderEgg.png" width="200"> <img src="githubImages/SkeletonEgg.png" width="200"> <img src="githubImages/ZombieEgg.png" width="200">
+
+Other custom recipes:    
+<img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200">
+(You can use any type of log)
+<img src="githubImages/LavaBucket.png" width="200">
