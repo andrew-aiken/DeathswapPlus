@@ -1,11 +1,6 @@
 # Deathswap+
 Minecraft function addon for deathswap
 
-
-# ADD
-Added wool to string
-
-
 <h2>CREDIT</h2>
 The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
@@ -25,8 +20,9 @@ Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created 
 
 <h2>CRAFTING</h2>
 
-Inventory Smelt:   
-<img src="githubImages/Iron.png" width="200"> <img src="githubImages/Gold.png" width="200">    
+Smelt:   
+- Iron smelts faster
+- Gold smelts faster
 
 
 Craft mob eggs for traps:    
@@ -34,6 +30,5 @@ Craft mob eggs for traps:
 
 
 Other custom recipes:    
-<img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200">
-<img src="githubImages/LavaBucket.png" width="200">     
+<img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Wool2String.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200">     
 `You can use any type of log`
