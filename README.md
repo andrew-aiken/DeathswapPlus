@@ -16,4 +16,6 @@ Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-tr
 Description: This minigame is called death swap. Every few minutes, you will switch positions with the other player (Up to 8 players). The point is to make it so that when
 the positions are swapped you kill the opponent by trapping em. The last player to live is the winner.
 
-Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game. I updated it and made it work with multiple players rather than 2.
+Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
+
+![alt text](C:\Users\legol\Desktop\datapack_Custome_Deathswap\DeathSwap_Images\Enderpearl.png "Title")
