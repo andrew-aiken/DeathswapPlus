@@ -18,6 +18,9 @@ the positions are swapped you kill the opponent by trapping em. The last player 
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
 
-Craft mob eggs for traps:
+<h2>CRAFTING</h2>
+
+Craft mob eggs for traps:    
+
 <img src="githubImages/CreeperEgg.png" width="250"> <img src="githubImages/SpiderEgg.png" width="250"> <img src="githubImages/SkeletonEgg.png" width="250">
 <img src="githubImages/ZombieEgg.png" width="250">
