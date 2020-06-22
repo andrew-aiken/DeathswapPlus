@@ -2,12 +2,12 @@
 Minecraft function addon for deathswap
 
 <h2>Credit</h2>
-1. The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
+The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
 - Creator: \_Raph\_
 - Contact: pro.raphaelromeo1@gmail.com
 
-2. Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
+Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
 
 - Creator: SuperBuildcraft
 
