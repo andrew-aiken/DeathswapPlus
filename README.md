@@ -20,4 +20,4 @@ Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created 
 
 ![alt text](githubImages/Enderpearl.png "Title")
 
-<img src="githubImages/Enderpearl.png" width="100" height="100">
+<img src="githubImages/Enderpearl.png" width="250">
