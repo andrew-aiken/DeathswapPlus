@@ -3,6 +3,7 @@ Minecraft function addon for deathswap
 
 <h2>Credit</h2>
 The main is build off of the datapack, originally found from: [Link to Reddit post](https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/)
+
 - Creator: _Raph_
 - Contact: pro.raphaelromeo1@gmail.com
 
