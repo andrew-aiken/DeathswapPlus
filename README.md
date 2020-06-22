@@ -20,6 +20,9 @@ Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created 
 
 <h2>CRAFTING</h2>
 
+Inventory Smelt:   
+<img src="githubImages/Iron.png" width="200"> <img src="githubImages/Gold.png" width="200">
+
 Craft mob eggs for traps:    
 
 <img src="githubImages/CreeperEgg.png" width="200"> <img src="githubImages/SpiderEgg.png" width="200"> <img src="githubImages/SkeletonEgg.png" width="200"> <img src="githubImages/ZombieEgg.png" width="200">
