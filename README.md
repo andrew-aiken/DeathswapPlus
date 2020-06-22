@@ -22,4 +22,4 @@ Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created 
 
 Craft mob eggs for traps:    
 
-<img src="githubImages/CreeperEgg.png" width="250"> <img src="githubImages/SpiderEgg.png" width="250"> <img src="githubImages/SkeletonEgg.png" width="250"> <img src="githubImages/ZombieEgg.png" width="250">
+<img src="githubImages/CreeperEgg.png" width="200"> <img src="githubImages/SpiderEgg.png" width="200"> <img src="githubImages/SkeletonEgg.png" width="200"> <img src="githubImages/ZombieEgg.png" width="200">
