@@ -4,7 +4,8 @@
 
 scoreboard objectives add Hearts health
 scoreboard objectives setdisplay list Hearts
-/recipe give @a *
+recipe give @a *
+advancement revoke @a everything
 
 
 gamerule doImmediateRespawn true

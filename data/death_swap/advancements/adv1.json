@@ -1,0 +1,68 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Get an Egg",
+            "bold": false
+        },
+        "description": {
+            "text": "Craft a Mob Egg"
+        },
+        "icon": {
+            "item": "minecraft:egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "trigger_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:creeper_spawn_egg"
+                    }
+                ]
+            }
+        },
+	"trigger_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:zombie_spawn_egg"
+                    }
+                ]
+            }
+        },
+        "trigger_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skeleton_spawn_egg"
+                    }
+                ]
+            }
+        },
+	"trigger_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spider_spawn_egg"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["trigger_1", "trigger_2", "trigger_3", "trigger_4"]
+    ],
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "adventure:root"
+}

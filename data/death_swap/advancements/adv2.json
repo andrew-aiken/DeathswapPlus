@@ -1,0 +1,44 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Egg Master",
+            "bold": false
+        },
+        "description": {
+            "text": "Collect All 4 Egg types"
+        },
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "AllFour": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:creeper_spawn_egg"
+                    },
+                    {
+                        "item": "minecraft:zombie_spawn_egg"
+                    },
+                    {
+                        "item": "minecraft:spider_spawn_egg"
+                    },
+                    {
+                        "item": "minecraft:skeleton_spawn_egg"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+	"loot": ["minecraft:chests/shipwreck_treasure"]
+    },
+    "parent": "adventure:adv1"
+}
