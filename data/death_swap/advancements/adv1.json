@@ -11,13 +11,13 @@
         "icon": {
             "item": "minecraft:egg"
         },
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "trigger_1": {
+        "1": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -27,7 +27,7 @@
                 ]
             }
         },
-	"trigger_2": {
+        "2": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -37,7 +37,7 @@
                 ]
             }
         },
-        "trigger_3": {
+        "3": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -47,7 +47,7 @@
                 ]
             }
         },
-	"trigger_4": {
+        "4": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -59,10 +59,15 @@
         }
     },
     "requirements": [
-        ["trigger_1", "trigger_2", "trigger_3", "trigger_4"]
+        [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     ],
     "rewards": {
-        "experience": 100
+        "experience": 50
     },
-    "parent": "adventure:root"
+    "parent": "death_swap:root"
 }

@@ -17,28 +17,63 @@
         "hidden": false
     },
     "criteria": {
-        "AllFour": {
+        "1": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "item": "minecraft:creeper_spawn_egg"
-                    },
-                    {
-                        "item": "minecraft:zombie_spawn_egg"
-                    },
-                    {
-                        "item": "minecraft:spider_spawn_egg"
-                    },
+                    }
+                ]
+            }
+        },
+        "2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
                     {
                         "item": "minecraft:skeleton_spawn_egg"
                     }
                 ]
             }
+        },
+        "3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:zombie_spawn_egg"
+                    }
+                ]
+            }
+        },
+        "4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spider_spawn_egg"
+                    }
+                ]
+            }
         }
     },
+    "requirements": [
+        [
+            "1"
+        ],
+        [
+            "2"
+        ],
+        [
+            "3"
+        ],
+        [
+            "4"
+        ]
+    ],
     "rewards": {
-	"loot": ["minecraft:chests/shipwreck_treasure"]
+        "experience": 100
     },
-    "parent": "adventure:adv1"
+    "parent": "death_swap:adv1"
 }

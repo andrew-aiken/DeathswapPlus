@@ -5,6 +5,11 @@ gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
 gamemode survival @a
 
+
+advancement revoke @a everything
+recipe give @a *
+
+
 kill @e[name=Values]
 
 tellraw @a ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"]
