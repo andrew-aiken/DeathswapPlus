@@ -33,7 +33,7 @@
     ],
     "rewards": {
         "experience": 150,
-        "function": "death_swap:death_swap_advancements/gold_ore"
+        "function": "death_swap:death_swap_advancements/gold_block"
     },
     "parent": "death_swap:root"
 }
