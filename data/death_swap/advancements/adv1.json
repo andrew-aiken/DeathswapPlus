@@ -67,7 +67,8 @@
         ]
     ],
     "rewards": {
-        "experience": 50
+        "experience": 50,
+	"function": "death_swap:/death_swap_advancements/gold"
     },
     "parent": "death_swap:root"
 }
