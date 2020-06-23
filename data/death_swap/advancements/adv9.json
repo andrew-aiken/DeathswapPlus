@@ -20,7 +20,7 @@
             "trigger": "minecraft:entity_killed_player",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:zombified_piglin"
+                    "type": "minecraft:zombie"
                 }
             }
         },
@@ -28,7 +28,39 @@
             "trigger": "minecraft:entity_killed_player",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:zombie_villager"
+                    "type": "minecraft:witch"
+                }
+            }
+        },
+        "3": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton"
+                }
+            }
+        },
+        "4": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:Enderman"
+                }
+            }
+        },
+        "5": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper"
+                }
+            }
+        },
+        "6": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider"
                 }
             }
         }
@@ -36,7 +68,11 @@
     "requirements": [
         [
             "1",
-            "2"
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
         ]
     ],
     "parent": "death_swap:adv7"
