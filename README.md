@@ -1,6 +1,9 @@
 # Deathswap+
 Minecraft function addon for deathswap
 
+<h2>UPDATES</h2>
+- Any wool crafts to two string
+
 <h2>CREDIT</h2>
 The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
