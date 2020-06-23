@@ -1,0 +1,1 @@
+execute as @s at @s run loot give @s loot minecraft:chests/igloo_chest

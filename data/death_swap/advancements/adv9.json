@@ -44,7 +44,7 @@
             "trigger": "minecraft:entity_killed_player",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:Enderman"
+                    "type": "minecraft:enderman"
                 }
             }
         },

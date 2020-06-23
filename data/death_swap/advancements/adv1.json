@@ -60,7 +60,7 @@
     },
     "rewards": {
         "experience": 50,
-        "function": "death_swap:death_swap_advancements/gold_ore"
+        "function": "death_swap:death_swap_advancements/igloo_loot"
     },
     "requirements": [
         [
