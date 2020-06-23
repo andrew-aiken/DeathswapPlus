@@ -33,7 +33,8 @@
         ]
     ],
     "rewards": {
-        "experience": 100
+        "experience": 100,
+        "function": "death_swap:death_swap_advancements/tnt"
     },
     "parent": "death_swap:root"
 }

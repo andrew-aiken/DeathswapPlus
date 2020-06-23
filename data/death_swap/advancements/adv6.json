@@ -32,7 +32,8 @@
         ]
     ],
     "rewards": {
-        "experience": 150
+        "experience": 150,
+        "function": "death_swap:death_swap_advancements/gold_ore"
     },
     "parent": "death_swap:root"
 }

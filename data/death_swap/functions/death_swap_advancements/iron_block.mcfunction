@@ -1,0 +1,1 @@
+execute as @s at @s run give @s minecraft:iron_block
