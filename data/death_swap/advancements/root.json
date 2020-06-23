@@ -2,13 +2,13 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Death Swap",
-            "color": "gold",
-            "bold": true,
             "italic": false,
-            "underlined": false,
             "strikethrough": false,
-            "obfuscated": false
+            "obfuscated": false,
+            "text": "Death Swap",
+            "underlined": false,
+            "bold": true,
+            "color": "gold"
         },
         "description": {
             "text": "Play a game"

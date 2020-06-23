@@ -1,0 +1,43 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Mob Rule"
+        },
+        "description": {
+            "text": "Die to a Monster"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                }
+            }
+        },
+        "2": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1",
+            "2"
+        ]
+    ],
+    "parent": "death_swap:adv7"
+}

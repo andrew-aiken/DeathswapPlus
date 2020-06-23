@@ -58,6 +58,10 @@
             }
         }
     },
+    "rewards": {
+        "experience": 50,
+        "function": "death_swap:death_swap_advancements/gold_ore"
+    },
     "requirements": [
         [
             "1",
@@ -66,9 +70,5 @@
             "4"
         ]
     ],
-    "rewards": {
-        "experience": 50,
-        "function": "death_swap:death_swap_advancements/gold_ore"
-    },
     "parent": "death_swap:root"
 }

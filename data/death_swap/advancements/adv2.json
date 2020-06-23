@@ -1,21 +1,5 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "display": {
-        "title": {
-            "text": "Egg Master",
-            "bold": false
-        },
-        "description": {
-            "text": "Collect All 4 Egg types"
-        },
-        "icon": {
-            "item": "minecraft:dragon_egg"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
     "criteria": {
         "1": {
             "trigger": "minecraft:inventory_changed",
@@ -72,6 +56,22 @@
             "4"
         ]
     ],
+    "display": {
+        "title": {
+            "bold": false,
+            "text": "Egg Master"
+        },
+        "description": {
+            "text": "Collect All 4 Egg types"
+        },
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
     "rewards": {
         "experience": 100,
         "function": "death_swap:death_swap_advancements/gold_block"

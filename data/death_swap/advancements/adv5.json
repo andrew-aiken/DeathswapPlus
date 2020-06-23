@@ -2,29 +2,23 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Ender Pearl"
+            "text": "Eat a Totem",
+            "color": "yellow"
         },
         "description": {
-            "text": "Collect an Ender Pearl"
+            "text": "Consume Your Totem"
         },
         "icon": {
-            "item": "minecraft:ender_pearl"
+            "item": "minecraft:pufferfish"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
         "1": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:ender_pearl"
-                    }
-                ]
-            }
+            "trigger": "minecraft:used_totem"
         }
     },
     "requirements": [
@@ -32,9 +26,5 @@
             "1"
         ]
     ],
-    "rewards": {
-        "experience": 100,
-        "function": "death_swap:death_swap_advancements/iron_block"
-    },
-    "parent": "death_swap:root"
+    "parent": "death_swap:adv4"
 }

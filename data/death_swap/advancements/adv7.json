@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "First degree Murder",
+            "color": "red"
+        },
+        "description": {
+            "text": "Kill Another Player"
+        },
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "rewards": {
+        "experience": 150,
+        "function": "death_swap:death_swap_advancements/gold_block"
+    },
+    "parent": "death_swap:root"
+}
