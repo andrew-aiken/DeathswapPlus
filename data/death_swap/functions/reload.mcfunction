@@ -6,6 +6,12 @@ gamerule sendCommandFeedback false
 gamemode survival @a
 
 
+
+scoreboard objectives add Hearts health
+scoreboard objectives setdisplay list Hearts
+
+
+
 advancement revoke @a everything
 recipe give @a *
 

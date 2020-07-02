@@ -1,11 +1,6 @@
 #These actions will only be triggered once per reload, They will also allow the game to restart with a 100% clean reload
 
 
-
-scoreboard objectives add Hearts health
-scoreboard objectives setdisplay list Hearts
-
-
 gamerule doImmediateRespawn true
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
