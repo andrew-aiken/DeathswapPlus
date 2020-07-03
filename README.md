@@ -1,8 +1,10 @@
 # Deathswap+
-Minecraft function addon for deathswap
+Minecraft datapack addon for deathswap
 
 <h2>UPDATES</h2>
-- Any wool crafts to two string
+- Mob egg advancment gives loot
+- Fast meat
+- Loot tables for meatty mobs
 
 <h2>CREDIT</h2>
 The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
@@ -21,11 +23,17 @@ the positions are swapped you kill the opponent by trapping em. The last player 
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
 
-<h2>CRAFTING</h2>
+<h2>CRAFTING & LOOT</h2>
+
+Loot:
+- Chickens can drop bones
+- Pigs can drop gunpowder
 
 Smelt:   
 - Iron smelts faster
 - Gold smelts faster
+- All meats smelt faster
+- Leather can be smelted into rotton flesh
 
 
 Craft mob eggs for traps:    
@@ -33,5 +41,5 @@ Craft mob eggs for traps:
 
 
 Other custom recipes:    
-<img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Wool2String.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200">     
+<img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200">     
 `You can use any type of log`
