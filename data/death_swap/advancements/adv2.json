@@ -74,7 +74,7 @@
     },
     "rewards": {
         "experience": 100,
-        "function": "death_swap:death_swap_advancements/gold_block"
+        "function": "death_swap:death_swap_advancements/loot_all_eggs"
     },
     "parent": "death_swap:adv1"
 }
