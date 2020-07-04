@@ -2,38 +2,40 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "First degree Murder",
-            "color": "red"
+            "text": "Redstoner"
         },
         "description": {
-            "text": "Kill Another Player"
+            "text": "      ",
+            "strikethrough": true
         },
         "icon": {
-            "item": "minecraft:player_head"
+            "item": "minecraft:redstone_block"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
         "1": {
-            "trigger": "minecraft:player_killed_entity",
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "entity": {
-                    "type": "minecraft:player"
-                }
+                "items": [
+                    {
+                        "item": "minecraft:redstone_block"
+                    }
+                ]
             }
         }
+    },
+    "rewards": {
+        "experience": 100,
+        "function": "death_swap:death_swap_advancements/redstone_loot"
     },
     "requirements": [
         [
             "1"
         ]
     ],
-    "rewards": {
-        "experience": 150,
-        "function": "death_swap:death_swap_advancements/gold_block"
-    },
     "parent": "death_swap:root"
 }
