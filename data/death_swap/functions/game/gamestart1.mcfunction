@@ -11,3 +11,8 @@ execute if entity @e[name=Values,scores={GameStart=1}] run function death_swap:g
 function death_swap:game/deaths
 
 execute if entity @e[name=Values,scores={Players=1,PlayersDeath=1..}] run function death_swap:game/win
+
+
+
+#Added for Pigman 10/8/20
+/data merge entity @e[type=minecraft:zombified_piglin,limit=1,team=!AngryPigman] {Anger:True,AngerTime:30000,tag:AngryPig,Team:AngryPigman}
