@@ -2,15 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "#G#",
+        "#D#",
         "###"
     ],
     "key": {
         "#": {
             "item": "minecraft:sand"
         },
-        "G": {
-            "item": "minecraft:gunpowder"
+        "D": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {
