@@ -2,9 +2,9 @@
 Minecraft datapack addon for deathswap
 
 <h2>UPDATES</h2>
-- Mob egg advancment gives loot<br>
-- Fast meat<br>
-- Loot tables for meatty mobs<br>
+- Added new Wak advancment
+- New crafting recipes
+
 
 <h2>CREDIT</h2>
 The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
@@ -25,6 +25,10 @@ Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created 
 
 <h2>CRAFTING & LOOT</h2>
 
+Advancment:
+- Death Swap can give loot
+- Wak are for the memes
+
 Loot:
 - Chickens can drop bones
 - Pigs can drop gunpowder
@@ -43,4 +47,4 @@ Craft mob eggs for traps:
 Other custom recipes:    
 <img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200">     
 `You can use any type of log`
-# TNT: gunpowder has been replaced with diamond
+<img src="githubImages/cobweb.png" width="200"> <img src="githubImages/Spawner.png" width="200"> <img src="githubImages/Elytra.png" width="200"> <img src="githubImages/EndCrystal.png" width="200">
