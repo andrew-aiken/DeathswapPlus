@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:sea_pickle"
+    },
+    "result": "minecraft:trident",
+    "count": 1
+}
