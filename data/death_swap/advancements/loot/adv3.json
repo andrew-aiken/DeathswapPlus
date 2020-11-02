@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "rewards": {
+        "experience": 100,
+        "function": "death_swap:death_swap_advancements/tnt"
+    },
+    "display": {
+        "title": {
+            "text": "Golden Apple"
+        },
+        "description": {
+            "text": "Get a Golden Apple"
+        },
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_apple"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "death_swap:loot/root"
+}

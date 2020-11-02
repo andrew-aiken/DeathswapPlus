@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:totem_of_undying"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "rewards": {
+        "experience": 100,
+        "function": "death_swap:death_swap_advancements/iron_block"
+    },
+    "display": {
+        "title": {
+            "bold": false,
+            "text": "Totem"
+        },
+        "description": {
+            "text": "Get a Totem"
+        },
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "death_swap:loot/adv3"
+}

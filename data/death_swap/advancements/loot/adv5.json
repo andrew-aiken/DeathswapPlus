@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Eat a Totem",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Consume Your Totem"
+        },
+        "icon": {
+            "item": "minecraft:pufferfish"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:used_totem"
+        }
+    },
+    "requirements": [
+        [
+            "1"
+        ]
+    ],
+    "parent": "death_swap:loot/adv4"
+}
