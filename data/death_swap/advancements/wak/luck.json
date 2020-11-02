@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Lucky You",
+            "color": "gold"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "foot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:rabbit_foot"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "foot"
+        ]
+    ],
+    "rewards": {
+        "experience": 10000000000
+    },
+    "parent": "death_swap:wak/root"
+}

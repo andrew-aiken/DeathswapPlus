@@ -1,0 +1,62 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Desperate"
+        },
+        "description": {
+            "text": "Sucks 2 be u",
+            "strikethrough": true
+        },
+        "icon": {
+            "item": "minecraft:pufferfish"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "rotton": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:rotten_flesh"
+                }
+            }
+        },
+        "puff": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:pufferfish"
+                }
+            }
+        },
+        "spider": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:spider_eye"
+                }
+            }
+        },
+        "potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:poisonous_potato"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "rotton",
+            "puff",
+            "spider",
+            "potato"
+        ]
+    ],
+    "parent": "death_swap:wak/root"
+}
