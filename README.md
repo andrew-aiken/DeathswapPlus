@@ -2,7 +2,7 @@
 Minecraft datapack addon for deathswap
 
 <h2>UPDATES</h2>
-- Added new Wak advancment
+- Added new Wak advancment <br>
 - New crafting recipes
 
 
@@ -33,11 +33,11 @@ Smelt:
 Custom Recipes:   
 <img src="githubImages/CreeperEgg.png" width="200"> <img src="githubImages/SpiderEgg.png" width="200"> <img src="githubImages/SkeletonEgg.png" width="200"> <img src="githubImages/ZombieEgg.png" width="200">
 
-<img src="githubImages/Wool2String.png" width="200"> <img src="githubImages/leather2rotton.png" width="200"> <img src="githubImages/ender2chorus.png" width="200">
+<img src="githubImages/Wool2String.png" width="200"> <img src="githubImages/leather2rotton.png" width="200"> <img src="githubImages/ender2chorus.png" width="200"> <img src="githubImages/Enderpearl.png" width="200">
 
 <img src="githubImages/cobweb.png" width="200"> <img src="githubImages/Spawner.png" width="200"> <img src="githubImages/Elytra.png" width="200"> <img src="githubImages/EndCrystal.png" width="200">
 
-<img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200">
+<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200">
 `You can use any type of log for the lava bucket`
 
 <br>
