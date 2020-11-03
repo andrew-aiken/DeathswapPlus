@@ -1,70 +1,37 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:piston",
+          "name": "minecraft:redstone_block",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 16
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dispenser",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 8
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sticky_piston",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 8
+              "count": {
+                "min": 8,
+                "max": 16
+              }
             }
           ]
         }
       ]
     },
     {
-      "rolls": 3,
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:trapped_chest",
+          "name": "minecraft:repeater",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:comparator",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:redstone_torch",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 16
+              "count": 4
             }
           ]
         },
@@ -80,29 +47,61 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:repeater",
+          "name": "minecraft:redstone_torch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:comparator",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trapped_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sticky_piston",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 8
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+        },
         {
           "type": "minecraft:item",
-          "name": "minecraft:redstone_block",
+          "name": "minecraft:dispenser",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 16
-              }
+              "count": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piston",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
             }
           ]
         }

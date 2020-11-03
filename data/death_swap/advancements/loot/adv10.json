@@ -30,7 +30,7 @@
     },
     "rewards": {
         "experience": 100,
-        "function": "death_swap:death_swap_advancements/redstone_loot"
+        "function": "death_swap:death_swap_advancements/redstoner_loot"
     },
     "requirements": [
         [
