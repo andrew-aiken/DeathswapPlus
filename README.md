@@ -6,22 +6,12 @@ Minecraft datapack addon for deathswap
 - New crafting recipes
 
 
-<h2>CREDIT</h2>
-The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
-
-- Creator: \_Raph\_
-- Contact: pro.raphaelromeo1@gmail.com
-
-Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
-
-- Creator: SuperBuildcraft
-
-
 <h2>How 2 Play</h2>
 Description: This minigame is called death swap. Every few minutes, you will switch positions with the other player (Up to 8 players). The point is to make it so that when
 the positions are swapped you kill the opponent by trapping em. The last player to live is the winner.
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
+
 
 <h2>CRAFTING & LOOT</h2>
 
@@ -40,12 +30,24 @@ Smelt:
 - Leather can be smelted into rotton flesh
 
 
-Craft mob eggs for traps:    
+Custom Recipes:   
 <img src="githubImages/CreeperEgg.png" width="200"> <img src="githubImages/SpiderEgg.png" width="200"> <img src="githubImages/SkeletonEgg.png" width="200"> <img src="githubImages/ZombieEgg.png" width="200">
 
+<img src="githubImages/wool2string.png" width="200"> <img src="githubImages/leather2rotton.png" width="200"> <img src="githubImages/ender2chorus.pngg" width="200">
 
-Other custom recipes:    
-<img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200">     
+<img src="githubImages/cobweb.png" width="200"> <img src="githubImages/Spawner.png" width="200"> <img src="githubImages/Elytra.png" width="200"> <img src="githubImages/EndCrystal.png" width="200">
 
-<img src="githubImages/cobweb.png" width="200"> <img src="githubImages/Spawner.png" width="200"> <img src="githubImages/Elytra.png" width="200"> <img src="githubImages/EndCrystal.jpg" width="200">
+<img src="githubImages/Enderpearl.png" width="200"> <img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200">
 `You can use any type of log for the lava bucket`
+
+<br>
+
+<h2>CREDIT</h2>
+The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
+
+- Creator: \_Raph\_
+- Contact: pro.raphaelromeo1@gmail.com
+
+Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
+
+- Creator: SuperBuildcraft
