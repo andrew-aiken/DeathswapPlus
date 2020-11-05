@@ -1,10 +1,6 @@
 #These actions will only be triggered once per reload, They will also allow the game to restart with a 100% clean reload
 
 
-#New with update 10/8/20
-/gamerule forgiveDeadPlayers false
-/gamerule universalAnger true
-/team add AngryPigman
 
 
 gamerule doImmediateRespawn true
