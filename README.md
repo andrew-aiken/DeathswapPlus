@@ -2,6 +2,7 @@
 Minecraft datapack addon for deathswap
 
 <h2>UPDATES</h2>
+- New drops for entities
 - Added new Wak advancment <br>
 - New crafting recipes
 
