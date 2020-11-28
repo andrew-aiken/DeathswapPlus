@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:milk_bucket"
+        },
+        "title": {"translate":"Milk does your body good"},
+        "description": {"translate":"Not as good as wood"}
+    },
+    "parent": "adventure:root",	
+    "criteria": {
+        "milk_bucket": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:milk_bucket"
+                }
+            }
+        }
+    }
+}

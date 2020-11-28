@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "title": {"translate":"The Lie"},
+        "hidden": "false"
+    },
+    "parent": "adventure:root",		
+    "criteria": {
+        "cake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cake"
+                    }
+                ]
+            }
+        }
+    }
+}

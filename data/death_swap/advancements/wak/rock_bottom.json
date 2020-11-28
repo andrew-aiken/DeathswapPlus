@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {"translate":"Rock Bottom"},
+        "description": {"translate":"Dig down to the bottom of the world"},
+        "frame": "goal"
+    },
+    "parent": "adventure:root",	
+    "criteria": {
+        "bedrock_level": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"position": {
+					"y": {
+						"max": 5.5
+					}
+				}
+            }
+        }	
+    }
+}

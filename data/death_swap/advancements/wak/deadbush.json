@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "title": {"translate":"Yay! Deadbush!"},
+        "description": {"translate":"Get a deadbush cause you're a noob"}
+    },
+    "parent": "adventure:root", 		
+    "criteria": {
+        "dead_bush": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dead_bush"
+                    }
+                ]
+            }
+        }
+    }
+}

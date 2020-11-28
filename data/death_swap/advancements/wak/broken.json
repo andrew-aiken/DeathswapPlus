@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stick"
+        },
+        "title": {"translate":"Aww it broke!"},
+        "description": {"translate":"Break your first tool"},
+		"hidden": "false"
+    },
+    "criteria": {
+        "break_tool": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"durability": {
+					"max": 0
+				}
+            }
+        }
+    },
+    "parent": "adventure:root"
+}

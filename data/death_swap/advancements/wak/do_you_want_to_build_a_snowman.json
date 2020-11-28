@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "title": {"translate":"Olaf"},
+        "description": {"translate":"Do you want to build a snow golem?"}
+    },
+    "parent": "adventure:root",
+    "criteria": {
+        "summoned": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:snow_golem"
+                }
+            }
+        }
+    }
+}

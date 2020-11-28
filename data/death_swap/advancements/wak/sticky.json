@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "title": {"translate":"Eeuuwww!"},
+        "description": {"translate":"Get stuck in a cobweb"}
+    },
+    "criteria": {
+        "cobweb": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:cobweb"
+            }
+        }
+    },
+    "parent": "adventure:root"
+}
