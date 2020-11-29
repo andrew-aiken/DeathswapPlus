@@ -1,21 +1,21 @@
 {
     "display": {
-        "icon": {
-            "item": "minecraft:dead_bush"
-        },
         "title": {
             "text": "Yay! Deadbush!",
-            "color": "brown",
+            "color": "green",
             "bold": true
         },
         "description": {
-            "Get a deadbush cause you're a noob"
+            "text": "Get a deadbush cause you're a noob"
         },
+        "icon": {
+            "item": "minecraft:dead_bush"
+        },
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "adventure:root", 		
     "criteria": {
         "dead_bush": {
             "trigger": "minecraft:inventory_changed",
@@ -27,5 +27,11 @@
                 ]
             }
         }
-    }
+    },
+    "requirements": [
+        [
+            "dead_bush"
+        ]
+    ],
+    "parent": "death_swap:wak/root"
 }

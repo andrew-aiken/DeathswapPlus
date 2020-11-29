@@ -1,12 +1,21 @@
 {
     "display": {
+        "title": {
+            "text": "Milk does your body good",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "But, not as good as wood"
+        },
         "icon": {
             "item": "minecraft:milk_bucket"
         },
-        "title": {"translate":"Milk does your body good"},
-        "description": {"translate":"Not as good as wood"}
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
     },
-    "parent": "adventure:root",	
     "criteria": {
         "milk_bucket": {
             "trigger": "minecraft:consume_item",
@@ -16,5 +25,11 @@
                 }
             }
         }
-    }
+    },
+    "requirements": [
+        [
+            "milk_bucket"
+        ]
+    ],
+    "parent": "death_swap:wak/root"
 }

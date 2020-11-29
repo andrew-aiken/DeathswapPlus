@@ -1,11 +1,20 @@
 {
     "display": {
+        "title": {
+            "text": "Aww it broke man",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Break a tool"
+        },
         "icon": {
             "item": "minecraft:stick"
         },
-        "title": {"translate":"Aww it broke!"},
-        "description": {"translate":"Break your first tool"},
-		"hidden": "false"
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
     },
     "criteria": {
         "break_tool": {
@@ -17,5 +26,10 @@
             }
         }
     },
-    "parent": "adventure:root"
+    "requirements": [
+        [
+            "break_tool"
+        ]
+    ],
+    "parent": "death_swap:wak/root"
 }

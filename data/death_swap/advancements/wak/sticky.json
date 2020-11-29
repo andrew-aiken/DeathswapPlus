@@ -1,10 +1,20 @@
 {
     "display": {
+        "title": {
+            "text": "Sticky!",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "Get stuck in a cobweb"
+        },
         "icon": {
             "item": "minecraft:cobweb"
         },
-        "title": {"translate":"Eeuuwww!"},
-        "description": {"translate":"Get stuck in a cobweb"}
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
     },
     "criteria": {
         "cobweb": {
@@ -14,5 +24,10 @@
             }
         }
     },
-    "parent": "adventure:root"
+    "requirements": [
+        [
+            "cobweb"
+        ]
+    ],
+    "parent": "death_swap:wak/root"
 }

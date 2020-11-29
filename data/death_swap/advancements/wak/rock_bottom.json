@@ -1,11 +1,20 @@
 {
     "display": {
+        "title": {
+            "text": "Rock Bottom",
+            "color": "dark_gray",
+            "bold": true
+        },
+        "description": {
+            "text": "Dig down to the bottom of the world"
+        },
         "icon": {
             "item": "minecraft:bedrock"
         },
-        "title": {"translate":"Rock Bottom"},
-        "description": {"translate":"Dig down to the bottom of the world"},
-        "frame": "goal"
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
     },
     "parent": "adventure:root",	
     "criteria": {
@@ -19,5 +28,11 @@
 				}
             }
         }	
-    }
+    },
+    "requirements": [
+        [
+            "bedrock_level"
+        ]
+    ],
+    "parent": "death_swap:wak/root"
 }

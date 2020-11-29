@@ -1,14 +1,22 @@
 {
     "display": {
+        "title": {
+            "text": "Rekt!",
+            "color": "gray",
+            "bold": true
+        },
+        "description": {
+            "text": "Get killed by an iron golem"
+        },
         "icon": {
             "item": "minecraft:player_head",
                 "nbt": "{SkullOwner:\"i8MadChicken\"}"
         },
-        "title": {"translate":"Rekt!"},
-        "description": {"translate":"Get killed by a natural iron golem defending its village"},
-		"hidden": "false"
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
     },
-    "parent": "adventure:root",		
     "criteria": {
         "iron_golem": {
             "trigger": "minecraft:entity_killed_player",
@@ -18,5 +26,11 @@
                 }
             }
         }
-    }
+    },
+    "requirements": [
+        [
+            "iron_golem"
+        ]
+    ],
+    "parent": "death_swap:wak/root"
 }
