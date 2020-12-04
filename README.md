@@ -17,7 +17,6 @@ Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created 
 
 1. Download or clone repository
 ```
-pi@raspberrypi:~
 $ git clone https://github.com/Mad-Chicken/DeathswapPlus.git
 ```
 2. Copy the downloaded files into your minecraft worlds datapack folder.
