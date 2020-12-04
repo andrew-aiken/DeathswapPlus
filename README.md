@@ -1,20 +1,30 @@
 # Deathswap+
 Minecraft datapack addon for deathswap
 
-<h2>UPDATES</h2>
+## UPDATES
 - New drops for entities <br>
 - Added new Wak advancment <br>
 - New crafting recipes
 
 
-<h2>How 2 Play</h2>
+## How 2 Play
 Description: This minigame is called death swap. Every few minutes, you will switch positions with the other player (Up to 8 players). The point is to make it so that when
 the positions are swapped you kill the opponent by trapping em. The last player to live is the winner.
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
 
+## Quick Start
 
-<h2>CRAFTING & LOOT</h2>
+1. Download or clone repository
+```
+pi@raspberrypi:~
+$ git clone https://github.com/Mad-Chicken/DeathswapPlus.git
+```
+2. Copy the downloaded files into your minecraft worlds datapack folder.
+
+3. In the game type `/reload`
+
+## CRAFTING & LOOT
 
 Advancment:
 - Death Swap can give loot
@@ -43,7 +53,7 @@ Custom Recipes:
 
 <br>
 
-<h2>CREDIT</h2>
+## CREDIT
 The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
 - Creator: \_Raph\_
