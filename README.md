@@ -2,9 +2,8 @@
 Minecraft datapack addon for deathswap
 
 ## UPDATES ##
-- New drops for entities <br>
-- Added new Wak advancment <br>
-- New crafting recipes
+- New DeathSwap+ Datapack <br>
+- Grinder
 
 
 ## How 2 Play ##
