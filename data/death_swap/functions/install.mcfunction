@@ -1,6 +1,8 @@
 #These actions will only be triggered once per reload, They will also allow the game to restart with a 100% clean reload
 
 
+gamerule forgiveDeadPlayers false
+gamerule universalAnger true
 
 
 gamerule doImmediateRespawn true
