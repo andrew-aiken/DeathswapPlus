@@ -2,6 +2,7 @@
 Minecraft datapack addon for deathswap
 
 ## UPDATES ##
+- Fireballz! <br>
 - New DeathSwap+ Datapack <br>
 - Grinder
 
@@ -37,7 +38,7 @@ Custom Recipes:
 
 <img src="githubImages/cobweb.png" width="200"> <img src="githubImages/Spawner.png" width="200"> <img src="githubImages/Elytra.png" width="200"> <img src="githubImages/EndCrystal.png" width="200">
 
-<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200"> <br>
+<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200"> <img src="githubImages/Fireball.png" width="200"> <br>
 `You can use any type of log for the lava bucket`
 
 <br>
