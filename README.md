@@ -2,8 +2,9 @@
 Minecraft datapack addon for deathswap
 
 ## UPDATES ##
+- Nuke <br>
+- Update DeathSwap+ Datapack <br>
 - Fireballz! <br>
-- New DeathSwap+ Datapack <br>
 - Grinder
 
 
@@ -38,8 +39,9 @@ Custom Recipes:
 
 <img src="githubImages/cobweb.png" width="200"> <img src="githubImages/Spawner.png" width="200"> <img src="githubImages/Elytra.png" width="200"> <img src="githubImages/EndCrystal.png" width="200">
 
-<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200"> <img src="githubImages/Fireball.png" width="200"> <br>
-`You can use any type of log for the lava bucket`
+<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200"> <img src="githubImages/Fireball.png" width="200"> <img src="githubImages/nuke.png" width="200"> <br>
+`You can use any type of log for the lava bucket`<br>`Nuke may have to be nurfed `
+
 
 <br>
 
@@ -52,3 +54,6 @@ The main is build off of the datapack, originally found from: https://www.reddit
 Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
 
 - Creator: SuperBuildcraft
+
+Fireball & nuke was implemented from Timber Forge
+ - https://www.youtube.com/channel/UC606Jh3yjNj40dcVuMwtUCw
