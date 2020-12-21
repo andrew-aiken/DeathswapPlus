@@ -2,8 +2,9 @@
 Minecraft datapack addon for deathswap
 
 ## UPDATES ##
-- Nuke <br>
+- Blood Gold <br>
 - Update DeathSwap+ Datapack <br>
+- Nuke <br>
 - Fireballz! <br>
 - Grinder
 
