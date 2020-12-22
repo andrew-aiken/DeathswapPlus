@@ -1,16 +1,18 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:redstone_block"
-        },
-        {
-            "item": "minecraft:coal_block"
-        },
-        {
-            "item": "minecraft:tnt"
-        }
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#R#",
+        "###"
     ],
+    "key": {
+        "#": {
+            "item": "minecraft:tnt"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        }
+    },
     "result": {
         "item": "minecraft:end_portal_frame",
         "count": 1
