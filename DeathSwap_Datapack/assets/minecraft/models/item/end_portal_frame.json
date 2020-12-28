@@ -1,0 +1,6 @@
+{
+  "parent": "item/snowball/snowball_1",
+  "textures": {
+    "all": "item/snowball/snowball_1"
+  }
+}

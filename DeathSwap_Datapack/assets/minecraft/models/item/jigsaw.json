@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/fire_charge",
+  "textures": {
+    "all": "minecraft:item/fire_charge"
+  }
+}

@@ -1,19 +1,33 @@
 # Deathswap+
 Minecraft datapack addon for deathswap
 
-## UPDATES
-- New drops for entities <br>
-- Added new Wak advancment <br>
-- New crafting recipes
+## UPDATES ##
+- Blood Gold <br>
+- Update DeathSwap+ Datapack <br>
+- Nuke <br>
+- Fireballz! <br>
+- Grinder
 
 
-## How 2 Play
+## How 2 Play ##
+
 Description: This minigame is called death swap. Every few minutes, you will switch positions with the other player (Up to 8 players). The point is to make it so that when
 the positions are swapped you kill the opponent by trapping em. The last player to live is the winner.
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
 
-## Quick Start
+<br>
+
+## Resource Pack ##
+
+Use the DeathSwap+ Datapack
+Download it [HERE](https://raw.githubusercontent.com/Mad-Chicken/DeathSwapPlus_ResourcePack/master/RP.zip?raw\=true) <br>
+View the datapack https://github.com/Mad-Chicken/DeathSwapPlus_ResourcePack <br>
+SHA1 of DP `2F9E312E2451822C6EEEBF504DF244983E2CA4D4`
+
+<br>
+
+## Quick Start ##
 
 1. Download or clone repository
 ```
@@ -22,8 +36,9 @@ $ git clone https://github.com/Mad-Chicken/DeathswapPlus.git
 2. Copy the downloaded files into your minecraft worlds datapack folder.
 
 3. In the game type `/reload`
+<br>
 
-## CRAFTING & LOOT
+## CRAFTING & LOOT ##
 
 Advancment:
 - Death Swap can give loot
@@ -47,12 +62,13 @@ Custom Recipes:
 
 <img src="githubImages/cobweb.png" width="200"> <img src="githubImages/Spawner.png" width="200"> <img src="githubImages/Elytra.png" width="200"> <img src="githubImages/EndCrystal.png" width="200">
 
-<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200"> <br>
+<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200"> <img src="githubImages/Fireball.png" width="200"> <img src="githubImages/nuke.png" width="200"> <br>
 `You can use any type of log for the lava bucket`
 
 <br>
 
-## CREDIT
+## CREDIT ##
+
 The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
 - Creator: \_Raph\_
@@ -61,3 +77,6 @@ The main is build off of the datapack, originally found from: https://www.reddit
 Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-trees-drop-apples-data-pack/
 
 - Creator: SuperBuildcraft
+
+Fireball & nuke was implemented from Timber Forge
+ - https://www.youtube.com/channel/UC606Jh3yjNj40dcVuMwtUCw

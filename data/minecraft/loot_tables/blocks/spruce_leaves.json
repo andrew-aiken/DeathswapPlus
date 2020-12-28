@@ -35,7 +35,7 @@
                   ]
                 }
               ],
-              "name": "minecraft:birch_leaves"
+              "name": "minecraft:spruce_leaves"
             },
             {
               "type": "minecraft:item",
@@ -54,7 +54,7 @@
                   ]
                 }
               ],
-              "name": "minecraft:birch_sapling"
+              "name": "minecraft:spruce_sapling"
             }
           ]
         }

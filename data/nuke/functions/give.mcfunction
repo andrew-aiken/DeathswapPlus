@@ -1,0 +1,2 @@
+execute as @s[nbt={Inventory:[{id:"minecraft:end_portal_frame"}]}] run clear @s minecraft:end_portal_frame 1
+give @s snowball{display:{Name:'{"text":"Nuke","color":"orange","italic":false}'},CustomModelData:430,nuke:1b,Enchantments:[{id:"minecraft:vanishing_curse",lvl:1}]} 1
