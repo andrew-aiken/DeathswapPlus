@@ -15,7 +15,15 @@ the positions are swapped you kill the opponent by trapping em. The last player 
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
 
+<br>
+## Resource Pack ##
 
+Use the DeathSwap+ Datapack
+Download it [HERE](https://raw.githubusercontent.com/Mad-Chicken/DeathSwapPlus_ResourcePack/master/RP.zip?raw\=true)
+View the datapack https://github.com/Mad-Chicken/DeathSwapPlus_ResourcePack
+SHA1 of DP `2F9E312E2451822C6EEEBF504DF244983E2CA4D4`
+
+<br>
 ## CRAFTING & LOOT ##
 
 Advancment:
