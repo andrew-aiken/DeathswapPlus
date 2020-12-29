@@ -6,7 +6,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wither_rose"
+          "name": "minecraft:wither_rose",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     }
