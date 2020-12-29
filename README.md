@@ -2,8 +2,8 @@
 Minecraft datapack addon for deathswap
 
 ## UPDATES ##
+- DeathSwap+ Datapack <br>
 - Blood Gold <br>
-- Update DeathSwap+ Datapack <br>
 - Nuke <br>
 - Fireballz! <br>
 - Grinder
@@ -62,14 +62,17 @@ Custom Recipes:
 
 <img src="githubImages/cobweb.png" width="200"> <img src="githubImages/Spawner.png" width="200"> <img src="githubImages/Elytra.png" width="200"> <img src="githubImages/EndCrystal.png" width="200">
 
-<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200"> <img src="githubImages/Fireball.png" width="200"> <img src="githubImages/nuke.png" width="200"> <br>
-`You can use any type of log for the lava bucket`
+<img src="githubImages/TNT.png" width="200"> <img src="githubImages/Totem.png" width="200"> <img src="githubImages/LavaBucket.png" width="200"> <img src="githubImages/Fireball.png" width="200"> <img src="githubImages/Silver_fish.png" width="200"> <img src="githubImages/nuke.png" width="200"> <br>
+`You can use any type of log for the lava bucket` <br>
+`Silver fish block can be swaped with stone` <br>
+`Fireball & nuke use 'custom crafting' which can only replace a crafting item, the items will be called jigsaw & end_portal_frame`
 
 <br>
 
 ## CREDIT ##
 
-The main is build off of the datapack, originally found from: https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
+The main is build off of the datapack, originally found from:
+https://www.reddit.com/r/MinecraftCommands/comments/c5louz/death_swap_for_minecraft_1143/
 
 - Creator: \_Raph\_
 - Contact: pro.raphaelromeo1@gmail.com
@@ -78,5 +81,5 @@ Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-tr
 
 - Creator: SuperBuildcraft
 
-Fireball & nuke was implemented from Timber Forge
- - https://www.youtube.com/channel/UC606Jh3yjNj40dcVuMwtUCw
+Fireball & nuke was implemented from Timber Forge:
+https://www.youtube.com/channel/UC606Jh3yjNj40dcVuMwtUCw
