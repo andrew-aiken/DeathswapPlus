@@ -1,14 +1,16 @@
 import { Advancement } from 'sandstone'
 
-Advancement('main/root', {
+Advancement('side/root', {
   display: {
     icon: {
-      item: 'minecraft:oak_log'
+      item: 'minecraft:jigsaw'
     },
     title: {
-      text: 'DeathSwap+'
+      text: 'Wak',
+      color: 'gold',
+      bold: true
     },
-    description: '',
+    description: 'Random stuff',
     frame: 'challenge',
     show_toast: false,
     announce_to_chat: false,
