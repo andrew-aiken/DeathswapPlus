@@ -1,6 +1,6 @@
 import { LootTable } from "sandstone";
 
-LootTable('all_egg_loot', {
+LootTable('chests/all_egg_loot', {
     pools: [
         {
             rolls: 3,

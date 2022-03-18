@@ -16,7 +16,6 @@
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "adventure:root",
     "criteria": {
         "summoned": {
             "trigger": "minecraft:summoned_entity",

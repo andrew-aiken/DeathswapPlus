@@ -1,6 +1,6 @@
 import { LootTable } from "sandstone";
 
-LootTable('redstoner', {
+LootTable('chests/redstoner', {
     pools: [
         {
             rolls: 1,

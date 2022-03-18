@@ -67,7 +67,10 @@ Advancement('main/get_a_egg', {
     },
   },
   rewards: {
-    experience: 100
+    experience: 100,
+    loot: [
+      'deathswap-plus:chests/egg_loot'
+    ]
   },
   parent: 'deathswap-plus:main/root',
   requirements: [[
