@@ -1,10 +1,10 @@
 import type { SandstoneConfig } from 'sandstone'
 
 export default {
-  name: 'itemPack',
+  name: 'DeathswapPlus',
   description: 'DeathswapPlus',
   formatVersion: 9,
-  namespace: 'deathswap-plus',
+  namespace: 'deathswapplus',
   packUid: 'oSr1maYV',
   saveOptions: { path: '/mnt/c/Users/aaiken/AppData/Roaming/.minecraft/saves/DataPackTesting/datapacks' },
   onConflict: {
