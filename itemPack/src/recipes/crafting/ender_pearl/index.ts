@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('ender_pearl', {
+Recipe('crafting/ender_pearl', {
   type: 'crafting_shapeless',
   ingredients: [
     {

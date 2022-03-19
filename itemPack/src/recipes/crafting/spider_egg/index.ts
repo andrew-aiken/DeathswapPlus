@@ -1,16 +1,19 @@
 import { Recipe } from 'sandstone'
 
-Recipe('crafting/cobweb', {
+Recipe('crafting/spider_egg', {
   type: 'crafting_shaped',
   pattern: [
-    'S S',
-    ' S ',
-    'S S'
+    'SSS',
+    'SSS',
+    'SSS'
   ],
   key: {
     S: {
       item: 'minecraft:string'
     }
   },
-  result: {item: 'minecraft:cobweb'}
+  result: {
+    item: 'minecraft:spider_spawn_egg',
+    count: 3
+  }
 })

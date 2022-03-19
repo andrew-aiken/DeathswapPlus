@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('creeper_egg', {
+Recipe('crafting/creeper_egg', {
   type: 'crafting_shaped',
   pattern: [
     'GGG',

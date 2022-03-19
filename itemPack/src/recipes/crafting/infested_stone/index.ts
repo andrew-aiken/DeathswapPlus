@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('infested_stone', {
+Recipe('crafting/infested_stone', {
   type: 'crafting_shaped',
   pattern: [
     'SSS',

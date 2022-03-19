@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('spawner', {
+Recipe('crafting/spawner', {
   type: 'crafting_shaped',
   pattern: [
     'IiI',

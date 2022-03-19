@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('chorus_fruit', {
+Recipe('crafting/chorus_fruit', {
   type: 'crafting_shapeless',
   ingredients: [
     {

@@ -3,7 +3,7 @@ import { Advancement } from 'sandstone'
 Advancement('main/ender_pearl', {
   display: {
     icon: {
-      item: 'minecraft:totem_of_undying'
+      item: 'minecraft:ender_pearl'
     },
     title: {
       text: 'Ender Pearl'
@@ -17,7 +17,7 @@ Advancement('main/ender_pearl', {
     hidden: false
   },
   criteria: {
-    'totem': {
+    'ender_pearl': {
       trigger: 'minecraft:inventory_changed',
       conditions: {
         items: [
@@ -33,10 +33,10 @@ Advancement('main/ender_pearl', {
   rewards: {
     experience: 100
   },
-  parent: 'deathswap-plus:main/roots',
+  parent: 'deathswap-plus:main/root',
   requirements: [
     [
-	    'totem'
+	    'ender_pearl'
 	  ]
   ]
 })

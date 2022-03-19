@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('elytra', {
+Recipe('crafting/elytra', {
   type: 'crafting_shaped',
   pattern: [
     'FDF',

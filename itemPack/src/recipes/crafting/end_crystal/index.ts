@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('end_crystal', {
+Recipe('crafting/end_crystal', {
   type: 'crafting_shaped',
   pattern: [
     'NIN',
