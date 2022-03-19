@@ -1,6 +1,6 @@
 import { LootTable } from "sandstone";
 
-LootTable('minecraft:entities/villager', {
+LootTable('minecraft:entities/bat', {
   type: 'entity',
   pools: [
     {
@@ -9,8 +9,8 @@ LootTable('minecraft:entities/villager', {
       entries: [
         {
           type: 'item',
-          name: "minecraft:emerald",
-          weight: 5,
+          name: "minecraft:wither_rose",
+          weight: 3,
           functions: [
             {
               function: 'set_count',
@@ -20,12 +20,12 @@ LootTable('minecraft:entities/villager', {
         },
         {
           type: 'item',
-          name: "minecraft:emerald",
+          name: "minecraft:wither_rose",
           weight: 2,
           functions: [
             {
               function: 'set_count',
-              count: 2
+              count: 0
             }
           ]
         }

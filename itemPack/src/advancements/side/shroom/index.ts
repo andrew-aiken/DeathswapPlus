@@ -47,7 +47,8 @@ Advancement('side/shroom', {
     }
   },
   rewards: {
-    experience: 1000
+    experience: 1000,
+    function: 'deathswap-plus:shroom'
   },
   parent: 'deathswap-plus:side/root',
   requirements: [

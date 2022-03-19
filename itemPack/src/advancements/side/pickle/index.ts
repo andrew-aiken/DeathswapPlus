@@ -3,7 +3,7 @@ import { Advancement } from 'sandstone'
 Advancement('side/pickle', {
   display: {
     icon: {
-      item: 'minecraft:warped_fungus'
+      item: 'minecraft:sea_pickle'
     },
     title: {
       text: 'Pickle',
@@ -32,7 +32,8 @@ Advancement('side/pickle', {
     }
   },
   rewards: {
-    experience: 1000
+    experience: 1000,
+    function: 'deathswap-plus:pickle'
   },
   parent: 'deathswap-plus:side/root',
   requirements: [

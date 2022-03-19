@@ -29,7 +29,8 @@ Advancement('side/rekt', {
     }
   },
   rewards: {
-    experience: 150
+    experience: 0,
+    function: 'deathswap-plus:rekt'
   },
   parent: 'deathswap-plus:side/root',
   requirements: [

@@ -6,6 +6,7 @@
 		"elytra",
 		"enderman",
 		"gamemode",
-		"minecraft"
+		"minecraft",
+		"playsound"
 	]
 }

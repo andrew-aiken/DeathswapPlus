@@ -1,21 +1,18 @@
-# Advacements
+# Advancements
 
-### MAIN
+## MAIN
 
+- get_a_egg
+- egg_master
+- redstoner
+- murder
 
-### WAK
+## WAK
+
+- Pickle get enchanted with sharpness?
+- Shroom : enchanted helmet
+- "Buttered Up" : Full gold get automatically enchanted?
+- REKT : Message
 
 - Nuke
-    # Function
-- Pickle get enchanted with sharpness?
-    # Function
-    # /give @p netherite_sword{Enchantments:[{id:sharpness,lvl:1000}]}"
-- Shroom : enchanted helmet
-    # Function
-
-
-### Other
-
-- "Buttered Up" : Full gold get automatically enchanted?
-    # Function
-
+  - Function
