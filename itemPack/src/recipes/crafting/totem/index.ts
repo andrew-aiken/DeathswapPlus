@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('tnt', {
+Recipe('totem_of_undying', {
   type: 'crafting_shaped',
   pattern: [
     'ggg',
