@@ -28,7 +28,7 @@ Advancement('side/spiky', {
   rewards: {
     experience: 1000
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
 	    'cactus'

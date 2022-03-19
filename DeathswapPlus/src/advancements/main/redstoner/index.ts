@@ -33,10 +33,10 @@ Advancement('main/redstoner', {
   rewards: {
     experience: 100,
     loot: [
-      'deathswap-plus:chests/redstoner'
+      'deathswapplus:chests/redstoner'
     ]
   },
-  parent: 'deathswap-plus:main/root',
+  parent: 'deathswapplus:main/root',
   requirements: [
     [
 	    'redstone'

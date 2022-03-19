@@ -32,7 +32,7 @@ Advancement('side/awww_man', {
   rewards: {
     experience: 0
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
 	    'creeper'

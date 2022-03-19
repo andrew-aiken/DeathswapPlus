@@ -30,10 +30,10 @@ Advancement('main/murder', {
   rewards: {
     experience: 150,
     loot: [
-      'deathswap-plus:chests/gold_ingot'
+      'deathswapplus:chests/gold_ingot'
     ]
   },
-  parent: 'deathswap-plus:main/root',
+  parent: 'deathswapplus:main/root',
   requirements: [
     [
 	    'kill'

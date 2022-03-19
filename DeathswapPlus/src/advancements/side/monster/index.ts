@@ -37,7 +37,7 @@ Advancement('side/monster', {
   rewards: {
     experience: -500
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
 	    'killer_cat',

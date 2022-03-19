@@ -33,7 +33,7 @@ Advancement('main/totem', {
   rewards: {
     experience: 100
   },
-  parent: 'deathswap-plus:main/golden_apple',
+  parent: 'deathswapplus:main/golden_apple',
   requirements: [
     [
 	    'totem'

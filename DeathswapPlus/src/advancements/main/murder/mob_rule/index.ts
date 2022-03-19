@@ -77,7 +77,7 @@ Advancement('main/mob_rule', {
   rewards: {
     experience: 150
   },
-  parent: 'deathswap-plus:main/murder',
+  parent: 'deathswapplus:main/murder',
   requirements: [
     [
       'creeper',

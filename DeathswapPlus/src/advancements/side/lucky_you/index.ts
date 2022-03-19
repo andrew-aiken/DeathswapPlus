@@ -35,7 +35,7 @@ Advancement('side/lucky_you', {
   rewards: {
     experience: 1000000
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
 	    'rabbit_foot'

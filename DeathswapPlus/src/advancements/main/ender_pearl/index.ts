@@ -33,7 +33,7 @@ Advancement('main/ender_pearl', {
   rewards: {
     experience: 100
   },
-  parent: 'deathswap-plus:main/root',
+  parent: 'deathswapplus:main/root',
   requirements: [
     [
 	    'ender_pearl'

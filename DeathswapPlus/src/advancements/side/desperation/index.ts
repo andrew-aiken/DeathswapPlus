@@ -71,7 +71,7 @@ Advancement('side/desperation', {
   rewards: {
     experience: -50
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
 	    'rotten_flesh',

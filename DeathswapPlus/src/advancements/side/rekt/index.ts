@@ -30,9 +30,9 @@ Advancement('side/rekt', {
   },
   rewards: {
     experience: 0,
-    function: 'deathswap-plus:rekt'
+    function: 'deathswapplus:rekt'
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
       'iron_golem'

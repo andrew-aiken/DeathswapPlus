@@ -31,7 +31,7 @@ Advancement('side/bee', {
   rewards: {
     experience: 0
   },
-  parent: 'deathswap-plus:side/bee_nest',
+  parent: 'deathswapplus:side/bee_nest',
   requirements: [
     [
 	    'bee'

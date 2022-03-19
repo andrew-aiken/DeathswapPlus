@@ -32,7 +32,7 @@ Advancement('main/eat_totem', {
   rewards: {
     experience: 100
   },
-  parent: 'deathswap-plus:main/totem',
+  parent: 'deathswapplus:main/totem',
   requirements: [
     [
 	    'totem'

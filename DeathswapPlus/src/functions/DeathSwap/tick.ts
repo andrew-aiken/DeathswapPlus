@@ -1,9 +1,9 @@
-import { MCFunction, execute, say } from 'sandstone'
+import { MCFunction, execute } from 'sandstone'
 
 MCFunction('tick', () => {
-  execute.if.entity('@e[type=armor_stand,name=Values,scores={GameStart=0}]').run.functionCmd('deathswap-plus:deathswaplus/lobby')
+  execute.if.entity('@e[type=armor_stand,name=Values,scores={GameStatus=0}]').run.functionCmd('deathswapplus:deathswaplus/lobby')
 
-  execute.if.entity('@e[type=armor_stand,name=Values,scores={GameStart=1}]').run.functionCmd('deathswap-plus:deathswaplus/in_game')
+  execute.if.entity('@e[type=armor_stand,name=Values,scores={GameStatus=1}]').run.functionCmd('deathswapplus:deathswaplus/in_game')
 }, {runEachTick: true})
 
 
@@ -12,7 +12,7 @@ MCFunction('tick', () => {
 Entity 'Values'
 stores scoreboard information
 
-GameStart
+GameStatus
 0 : Waiting / Lobby
 1 : Started
 

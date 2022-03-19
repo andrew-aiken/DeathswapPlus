@@ -31,7 +31,7 @@ Advancement('main/revenge', {
   rewards: {
     experience: 150
   },
-  parent: 'deathswap-plus:main/murder',
+  parent: 'deathswapplus:main/murder',
   requirements: [
     [
 	    'death'

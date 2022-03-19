@@ -34,7 +34,7 @@ Advancement('side/sticky', {
   rewards: {
     experience: 0
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
       'honey',

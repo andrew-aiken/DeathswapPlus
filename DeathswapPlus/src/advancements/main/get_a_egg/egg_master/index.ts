@@ -70,10 +70,10 @@ Advancement('main/egg_master', {
   rewards: {
     experience: 100,
     loot: [
-      'deathswap-plus:chests/all_egg_loot'
+      'deathswapplus:chests/all_egg_loot'
     ]
   },
-  parent: 'deathswap-plus:main/get_a_egg',
+  parent: 'deathswapplus:main/get_a_egg',
   requirements: [
     [
       'creeper',

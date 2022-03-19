@@ -32,7 +32,7 @@ Advancement('side/lie', {
   rewards: {
     experience: 100
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
       'cake'

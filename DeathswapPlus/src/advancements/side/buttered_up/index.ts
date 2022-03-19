@@ -70,9 +70,9 @@ Advancement('side/buttered_up', {
   },
   rewards: {
     experience: 100,
-    function: 'deathswap-plus:buttered_up'
+    function: 'deathswapplus:buttered_up'
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
       'golden_helmet'

@@ -34,7 +34,7 @@ Advancement('side/rock_bottom', {
   rewards: {
     experience: 150
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
       'bedrock_level'

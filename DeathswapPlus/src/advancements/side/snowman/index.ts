@@ -30,7 +30,7 @@ Advancement('side/golden_apple', {
   rewards: {
     experience: 50
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
 	    'snowman'

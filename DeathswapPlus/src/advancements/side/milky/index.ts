@@ -32,7 +32,7 @@ Advancement('side/milky', {
   rewards: {
     experience: -50
   },
-  parent: 'deathswap-plus:side/root',
+  parent: 'deathswapplus:side/root',
   requirements: [
     [
       'milk_bucket'

@@ -1,8 +1,8 @@
 import { MCFunction, execute, give, sleep, playsound } from 'sandstone'
 
 MCFunction('fireball/loop', () => {
-  execute.as('@a[nbt={Inventory:[{id:"minecraft:jigsaw"}]}]').run.functionCmd('deathswap-plus:fireball/give')
-  execute.as('@e[type=minecraft:snowball,nbt={Item:{tag:{fireball:1b}}}]').at('@s').anchored('eyes').run.functionCmd('deathswap-plus:fireball/throw')
+  execute.as('@a[nbt={Inventory:[{id:"minecraft:jigsaw"}]}]').run.functionCmd('deathswapplus:fireball/give')
+  execute.as('@e[type=minecraft:snowball,nbt={Item:{tag:{fireball:1b}}}]').at('@s').anchored('eyes').run.functionCmd('deathswapplus:fireball/throw')
 }, {runOnLoad: false, runEachTick: true})
 
 MCFunction('fireball/give', () => {

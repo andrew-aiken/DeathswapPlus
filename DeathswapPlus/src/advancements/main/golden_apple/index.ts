@@ -45,10 +45,10 @@ Advancement('main/golden_apple', {
   rewards: {
     experience: 100,
     loot: [
-      'deathswap-plus:chests/gunpowder'
+      'deathswapplus:chests/gunpowder'
     ]
   },
-  parent: 'deathswap-plus:main/root',
+  parent: 'deathswapplus:main/root',
   requirements: [
     [
 	    'golden',
