@@ -83,3 +83,33 @@ Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-tr
 
 Fireball & nuke was implemented from Timber Forge:
 https://www.youtube.com/channel/UC606Jh3yjNj40dcVuMwtUCw
+
+
+
+
+Crafts:
+
+lightning rod
+  use
+copper
+  use
+
+Spore blossem
+  Under you get poison?
+
+Dripstone
+  craft
+
+powder snow
+  craft
+
+Amethyst Shard
+  craft
+    end crystal
+    3 to cluster
+  effect
+    hurt to walk on
+
+Idea:
+
+- Boots that cause fire?
