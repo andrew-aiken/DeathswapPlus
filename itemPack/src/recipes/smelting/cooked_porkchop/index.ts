@@ -1,6 +1,6 @@
 import { Recipe } from 'sandstone'
 
-Recipe('smelting/a_cooked_porkchop', {
+Recipe('smelting/cooked_porkchop', {
   type: 'smelting',
   ingredient: [
     {
