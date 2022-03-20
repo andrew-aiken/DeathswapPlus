@@ -18,21 +18,21 @@ MCFunction('reload', () => {
 
   kill('@e[type=minecraft:armor_stand,name=Values]')
   
-  scoreboard.objectives.remove('AnSwap')
+  scoreboard.objectives.remove('S_AnSwap')
   scoreboard.objectives.remove('Death')
   scoreboard.objectives.remove('GameStatus')
   scoreboard.objectives.remove('Hearts') // custom
-  scoreboard.objectives.remove('S_NetherPortal')
+  scoreboard.objectives.remove('S_Nether')
   scoreboard.objectives.remove('Players')
   scoreboard.objectives.remove('PlayersDeath')
   scoreboard.objectives.remove('S_Achievements')
-  scoreboard.objectives.remove('RandomScore1')
-  scoreboard.objectives.remove('RandomScore2')
+  scoreboard.objectives.remove('S_ShowTimer')
+  scoreboard.objectives.remove('S_Hunger')
   scoreboard.objectives.remove('Select')
   scoreboard.objectives.remove('Swap')
   scoreboard.objectives.remove('Time')
   scoreboard.objectives.remove('Timer')
-  scoreboard.objectives.remove('TimerCount')
+  scoreboard.objectives.remove('S_TimerCount')
   scoreboard.objectives.remove('TimerMins')
   scoreboard.objectives.remove('TimerSecs')
 
@@ -40,20 +40,20 @@ MCFunction('reload', () => {
   scoreboard.objectives.add('Hearts', 'health')
   scoreboard.objectives.setDisplay('list', 'Hearts')
 
-  scoreboard.objectives.add('AnSwap', 'dummy')
+  scoreboard.objectives.add('S_AnSwap', 'dummy')
   scoreboard.objectives.add('Death', 'deathCount', 'Deaths')
   scoreboard.objectives.add('GameStatus', 'dummy')
-  scoreboard.objectives.add('S_NetherPortal', 'dummy')
+  scoreboard.objectives.add('S_Nether', 'dummy')
   scoreboard.objectives.add('Players', 'dummy', 'Player count')
   scoreboard.objectives.add('PlayersDeath', 'dummy')
   scoreboard.objectives.add('S_Achievements', 'dummy')
-  scoreboard.objectives.add('RandomScore1', 'dummy')
-  scoreboard.objectives.add('RandomScore2', 'dummy')
+  scoreboard.objectives.add('S_ShowTimer', 'dummy')
+  scoreboard.objectives.add('S_Hunger', 'dummy')
   scoreboard.objectives.add('Select', 'trigger')
   scoreboard.objectives.add('Swap', 'dummy')
   scoreboard.objectives.add('Time', 'dummy', [{"text":"--=","color":"dark_gray","bold":"false"},{"text":"TIME","color":"white","bold":"true"},{"text":"=--","color":"dark_gray","bold":"false"}])
   scoreboard.objectives.add('Timer', 'dummy', 'Timer')
-  scoreboard.objectives.add('TimerCount', 'dummy')
+  scoreboard.objectives.add('S_TimerCount', 'dummy')
   scoreboard.objectives.add('TimerMins', 'dummy')
   scoreboard.objectives.add('TimerSecs', 'dummy')
 
@@ -80,19 +80,20 @@ MCFunction('reload', () => {
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'GameStatus', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'Players', 1)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'Swap', 0)
-  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'TimerCount', 6000)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_TimerCount', 6000)
 
   // Default Settings
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Achievements', 0)
-  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_NetherPortal', 0)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Nether', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_AnSwap', 0)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ShowTimer', 1)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Hunger', 0)
+
   // disable / enable deathswap+
   // fall damage
   // fire damage
   // naturalRegeneration
   // pvp
-  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'RandomScore1', 0)
-  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'RandomScore2', 0)
 
   scoreboard.players.set('Seconds', 'Time', 0)
   scoreboard.players.set('Minutes', 'Time', 0)
