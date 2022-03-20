@@ -1,6 +1,6 @@
 import { MCFunction, give, clear } from 'sandstone'
 
-MCFunction('shroom', () => {
+MCFunction('advancements/shroom', () => {
   // Clear old items
   clear('@s', 'minecraft:red_mushroom', 1)
   clear('@s', 'minecraft:brown_mushroom', 1)

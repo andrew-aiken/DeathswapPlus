@@ -9,6 +9,7 @@
 		"enderman",
 		"gamemode",
 		"minecraft",
-		"playsound"
+		"playsound",
+		"tellraw"
 	]
 }

@@ -70,7 +70,7 @@ Advancement('side/buttered_up', {
   },
   rewards: {
     experience: 100,
-    function: 'deathswapplus:buttered_up'
+    function: 'deathswapplus:advancements/buttered_up'
   },
   parent: 'deathswapplus:side/root',
   requirements: [

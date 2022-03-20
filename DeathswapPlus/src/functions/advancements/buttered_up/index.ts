@@ -1,6 +1,6 @@
 import { MCFunction, give, clear } from 'sandstone'
 
-MCFunction('buttered_up', () => {
+MCFunction('advancements/buttered_up', () => {
   clear('@s', 'minecraft:golden_helmet', 1)
   clear('@s', 'minecraft:golden_chestplate', 1)
   clear('@s', 'minecraft:golden_leggings', 1)

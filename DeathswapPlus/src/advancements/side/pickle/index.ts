@@ -33,7 +33,7 @@ Advancement('side/pickle', {
   },
   rewards: {
     experience: 1000,
-    function: 'deathswapplus:pickle'
+    function: 'deathswapplus:advancements/pickle'
   },
   parent: 'deathswapplus:side/root',
   requirements: [

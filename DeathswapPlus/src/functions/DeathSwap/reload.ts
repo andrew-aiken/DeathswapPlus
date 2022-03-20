@@ -1,10 +1,12 @@
-import { MCFunction, say, Objective  } from 'sandstone'
+import { MCFunction, scoreboard, tellraw } from 'sandstone'
 
 MCFunction('reload', () => {
-  say("Reloading DeathSwap+")
+  tellraw('@a', {"text":"Reloading DeathSwap+","color":"gold"})
 
-  Objective.create('GameStatus', 'dummy')
-  //scoreboard
+  scoreboard.objectives.remove('GameStatus')
+
+  scoreboard.objectives.add('GameStatus', 'dummy')
+
 }, {runOnLoad: true})
 
 /*

@@ -1,7 +1,7 @@
 
 import { MCFunction, title } from 'sandstone'
 
-MCFunction('rekt', () => {
+MCFunction('advancements/rekt', () => {
   title('@s', 'title', '{"text":"\u2620 REKT \u2620","bold":true,"color":"dark_red"}')
 }) 
 
