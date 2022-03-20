@@ -13,7 +13,7 @@ Entity 'Values'
 stores scoreboard information
 
 GameStatus
-0 : Waiting / Lobby
-1 : Started
+0 : Lobby
+1 : in_game
 
 */

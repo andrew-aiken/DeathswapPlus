@@ -7,9 +7,12 @@
 		"deathswapplus",
 		"elytra",
 		"enderman",
+		"forceload",
 		"gamemode",
+		"gamerule",
 		"minecraft",
 		"playsound",
+		"setblock",
 		"tellraw"
 	]
 }

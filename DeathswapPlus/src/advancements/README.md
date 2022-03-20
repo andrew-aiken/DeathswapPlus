@@ -9,8 +9,8 @@
 
 ## WAK
 
-- Pickle get enchanted with sharpness?
-- Shroom : enchanted helmet
+- Pickle :Enchanted with sharpness?
+- Shroom : Enchanted helmet
 - "Buttered Up" : Full gold get automatically enchanted?
 - REKT : Message
 

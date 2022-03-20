@@ -15,7 +15,7 @@ Advancement('side/lie', {
     frame: 'goal',
     show_toast: true,
     announce_to_chat: false,
-    hidden: false
+    hidden: true
   },
   criteria: {
     'cake': {
