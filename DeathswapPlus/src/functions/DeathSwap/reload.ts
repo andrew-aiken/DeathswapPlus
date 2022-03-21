@@ -20,8 +20,11 @@ MCFunction('reload', () => {
   
   scoreboard.objectives.remove('S_AnSwap')
   scoreboard.objectives.remove('Death')
+  scoreboard.objectives.remove('S_FallDamage')
+  scoreboard.objectives.remove('S_FireDamage')
   scoreboard.objectives.remove('GameStatus')
-  scoreboard.objectives.remove('Hearts') // custom
+  scoreboard.objectives.remove('Hearts')
+  scoreboard.objectives.remove('S_NaturalRegen')
   scoreboard.objectives.remove('S_Nether')
   scoreboard.objectives.remove('Players')
   scoreboard.objectives.remove('PlayersDeath')
@@ -42,7 +45,10 @@ MCFunction('reload', () => {
 
   scoreboard.objectives.add('S_AnSwap', 'dummy')
   scoreboard.objectives.add('Death', 'deathCount', 'Deaths')
+  scoreboard.objectives.add('S_FallDamage', 'dummy')
+  scoreboard.objectives.add('S_FireDamage', 'dummy')
   scoreboard.objectives.add('GameStatus', 'dummy')
+  scoreboard.objectives.add('S_NaturalRegen', 'dummy')
   scoreboard.objectives.add('S_Nether', 'dummy')
   scoreboard.objectives.add('Players', 'dummy', 'Player count')
   scoreboard.objectives.add('PlayersDeath', 'dummy')
@@ -88,12 +94,11 @@ MCFunction('reload', () => {
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_AnSwap', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ShowTimer', 1)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Hunger', 0)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_FallDamage', 0)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_FireDamage', 0)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_NaturalRegen', 0)
 
   // disable / enable deathswap+
-  // fall damage
-  // fire damage
-  // naturalRegeneration
-  // pvp
 
   scoreboard.players.set('Seconds', 'Time', 0)
   scoreboard.players.set('Minutes', 'Time', 0)
