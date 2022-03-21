@@ -1,15 +1,17 @@
 import { MCFunction, scoreboard, gamerule, gamemode, advancement, recipe, kill, tellraw, team, summon, forceload, playsound, execute } from 'sandstone'
 
-var PlayerTeamCount:number = 10;
+var PlayerTeamCount:number = 16;
 
 MCFunction('reload', () => {
   tellraw('@a', {"text":"Reloading DeathSwap+","color":"green"})
 
+  gamerule('forgiveDeadPlayers', false)
+  gamerule('universalAnger', true)
   gamerule('doImmediateRespawn', true)
   gamerule('announceAdvancements', true)
   //gamerule('commandBlockOutput', false)
   //gamerule('sendCommandFeedback', false)
-  //gamemode('survival', '@a')
+  //gamemode('adventure', '@a')
 
   
   // Remove objectives & advancement from last game //
