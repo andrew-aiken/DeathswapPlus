@@ -65,6 +65,12 @@ MCFunction('deathswaplus/trigger/settings_conf', () => {
   execute.if.entity('@e[scores={Select=20}]').run.scoreboard.players.set('@e[name=Values]', 'S_NaturalRegen', 0)
   execute.if.entity('@e[scores={Select=20}]').run.gamerule('naturalRegeneration', true)
 
+  // Disable DeathSwap+ //
+  execute.if.entity('@e[scores={Select=21}]').run.scoreboard.players.set('@e[name=Values]', 'S_DeathSwapPlus', 1)
+  
+  // Enable DeathSwap+  //
+  execute.if.entity('@e[scores={Select=22}]').run.scoreboard.players.set('@e[name=Values]', 'S_DeathSwapPlus', 0)
+
   // Game Time Count //
   execute.if.entity('@e[scores={Select=40}]').run.scoreboard.players.set('@e[name=Values]', 'S_TimerCount', 600)
   execute.if.entity('@e[scores={Select=41}]').run.scoreboard.players.set('@e[name=Values]', 'S_TimerCount', 1200)

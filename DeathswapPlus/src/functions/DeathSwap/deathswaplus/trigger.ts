@@ -1,7 +1,7 @@
 import { MCFunction, execute } from 'sandstone'
 
 MCFunction('deathswaplus/trigger', () => {
-  execute.if.entity('@e[scores={Select=1}]').run.functionCmd('deathswapplus:deathswaplus/trigger/setup_game')
+  execute.if.entity('@e[scores={Select=1}]').run.functionCmd('deathswapplus:deathswaplus/trigger/start_game')
   execute.if.entity('@e[scores={Select=2}]').run.functionCmd('deathswapplus:deathswaplus/trigger/settings')
   execute.if.entity('@e[scores={Select=3..}]').run.functionCmd('deathswapplus:deathswaplus/trigger/settings_conf')
 })
@@ -30,6 +30,8 @@ Select
 18 : No fire damage
 19 : Natural regeneration
 20 : No natural regeneration
+21 : Enable DeathSwap+
+22 : Disable DeathSwap+
 
 40 : 0.5 minutes
 41 : 1 minutes

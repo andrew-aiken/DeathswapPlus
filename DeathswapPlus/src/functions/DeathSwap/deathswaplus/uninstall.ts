@@ -40,6 +40,7 @@ MCFunction('deathswaplus/uninstall', () => {
   scoreboard.objectives.remove('S_TimerCount')
   scoreboard.objectives.remove('TimerMins')
   scoreboard.objectives.remove('TimerSecs')
+  scoreboard.objectives.remove('S_DeathSwapPlus')
 
   team.remove('bol')
   for (var teamNum:any = 0; teamNum < PlayerTeamCount ; teamNum++) {

@@ -27,6 +27,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.remove('GameStatus')
   scoreboard.objectives.remove('Hearts')
   scoreboard.objectives.remove('S_NaturalRegen')
+  scoreboard.objectives.remove('S_DeathSwapPlus')
   scoreboard.objectives.remove('S_Nether')
   scoreboard.objectives.remove('Players')
   scoreboard.objectives.remove('PlayersDeath')
@@ -51,6 +52,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.add('S_FireDamage', 'dummy')
   scoreboard.objectives.add('GameStatus', 'dummy')
   scoreboard.objectives.add('S_NaturalRegen', 'dummy')
+  scoreboard.objectives.add('S_DeathSwapPlus', 'dummy')
   scoreboard.objectives.add('S_Nether', 'dummy')
   scoreboard.objectives.add('Players', 'dummy', 'Player count')
   scoreboard.objectives.add('PlayersDeath', 'dummy')
@@ -99,8 +101,7 @@ MCFunction('reload', () => {
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_FallDamage', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_FireDamage', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_NaturalRegen', 0)
-
-  // disable / enable deathswap+
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_DeathSwapPlus', 0)
 
   scoreboard.players.set('Seconds', 'Time', 0)
   scoreboard.players.set('Minutes', 'Time', 0)

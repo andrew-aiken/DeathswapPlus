@@ -32,6 +32,8 @@ MCFunction('deathswaplus/trigger/settings', () => {
   execute.if.entity('@e[scores={Select=2}]').run.execute.if.entity('@e[name=Values,scores={S_NaturalRegen=0}]').run.tellraw('@a', [{"text":"Natural Regeneration?","color":"gray"},{"text":" [YES]","bold":"true","color":"green","clickEvent":{"action":"run_command","value":"/trigger Select set 19"}}])
   execute.if.entity('@e[scores={Select=2}]').run.execute.if.entity('@e[name=Values,scores={S_NaturalRegen=1}]').run.tellraw('@a', [{"text":"Natural Regeneration?","color":"gray"},{"text":" [NO]","bold":"true","color":"red","clickEvent":{"action":"run_command","value":"/trigger Select set 20"}}])
 
+  execute.if.entity('@e[scores={Select=2}]').run.execute.if.entity('@e[name=Values,scores={S_DeathSwapPlus=0}]').run.tellraw('@a', [{"text":"DeathSwap+?","color":"gray"},{"text":" [YES]","bold":"true","color":"green","clickEvent":{"action":"run_command","value":"/trigger Select set 21"}}])
+  execute.if.entity('@e[scores={Select=2}]').run.execute.if.entity('@e[name=Values,scores={S_DeathSwapPlus=1}]').run.tellraw('@a', [{"text":"DeathSwap+?","color":"gray"},{"text":" [NO]","bold":"true","color":"red","clickEvent":{"action":"run_command","value":"/trigger Select set 22"}}])
 
   // TIME STUFF //
   execute.if.entity('@e[scores={Select=2}]').run.execute.if.entity('@e[name=Values,scores={S_TimerCount=600}]').run.tellraw('@a', [{"text":"Timer 0.5 mins","color":"gray"},{"text":" [+]","bold":"true","color":"green","clickEvent":{"action":"run_command","value":"/trigger Select set 41"}},{"text":" [-]","color":"red","bold":"true","clickEvent":{"action":"run_command","value":"/trigger Select set 49"}}])
