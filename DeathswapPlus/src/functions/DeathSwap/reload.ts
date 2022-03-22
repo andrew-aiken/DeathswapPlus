@@ -73,11 +73,10 @@ MCFunction('reload', () => {
     team.add(teamNum, `Team ${teamNum}`)
   }
 
-  team.remove('bol')
-  team.add('bol', 'bol')
-  team.join('bol', '@a')
-  //team.join('1', '@r[team=bol]')
-  // NOTE Have players join team, removed from bol & repeat
+  team.remove('teamless')
+  team.add('teamless', 'teamless')
+  team.join('teamless', '@a')
+  //team.join('1', '@r[team=teamless]')
 
   /*
   summon('minecraft:armor_stand', ['0', '0', '0'], {CustomName:"{\"text\":\"Values\"}",Marker:1,Invisible:1,NoGravity:1})
