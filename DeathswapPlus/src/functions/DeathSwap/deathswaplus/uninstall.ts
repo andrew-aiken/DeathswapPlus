@@ -1,4 +1,4 @@
-import { MCFunction, gamerule, advancement, kill, datapack, scoreboard, team, tellraw, gamemode } from 'sandstone'
+import { MCFunction, gamerule, advancement, kill, datapack, scoreboard, team, tellraw, gamemode, tell } from 'sandstone'
 
 var PlayerTeamCount:number = 16;
 
@@ -15,7 +15,6 @@ MCFunction('deathswaplus/uninstall', () => {
   gamerule('naturalRegeneration', true)
   
   advancement.revoke('@a').everything()
-  datapack.disable('file/deathswaplus')
 
   kill('@e[type=minecraft:armor_stand,name=Values]')
   
@@ -42,7 +41,7 @@ MCFunction('deathswaplus/uninstall', () => {
   scoreboard.objectives.remove('TimerSecs')
   scoreboard.objectives.remove('S_DeathSwapPlus')
 
-  team.remove('bol')
+  team.remove('teamless')
   for (var teamNum:any = 0; teamNum < PlayerTeamCount ; teamNum++) {
     team.remove(teamNum)
   }
@@ -52,11 +51,14 @@ MCFunction('deathswaplus/uninstall', () => {
   tellraw('@a', {"text":" "})
   tellraw('@a', {"text":"DeathSwap+ Uninstalled!","color":"red"})
   tellraw('@a', {"text":" "})
-  tellraw('@a', {"text":"--------Type ''/reload'' to reinstall!--------","color":"green"})
+  tellraw('@a', {"text":"--------To reinstall type!--------","color":"green"})
+  tellraw('@a', {"text":"/datapack enable \"file/DeathswapPlus\"","color":"gold"})
   tellraw('@a', {"text":" "})
   tellraw('@a', {"text":"________________________________________","color":"black"})
 
   gamerule('commandBlockOutput', true)
   gamerule('sendCommandFeedback', true)
   gamemode('survival', '@a')
+
+  datapack.disable('"file/DeathswapPlus"')
 })

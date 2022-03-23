@@ -10,7 +10,7 @@ MCFunction('reload', () => {
   gamerule('doImmediateRespawn', true)
   gamerule('announceAdvancements', true)
   //gamerule('commandBlockOutput', false)
-  //gamerule('sendCommandFeedback', false)
+  gamerule('sendCommandFeedback', false)
   //gamemode('adventure', '@a')
 
   
@@ -87,7 +87,7 @@ MCFunction('reload', () => {
 
   // Setup Variables //
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'GameStatus', 0)
-  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'Players', 1)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'Players', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'Swap', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_TimerCount', 6000)
 
@@ -108,10 +108,10 @@ MCFunction('reload', () => {
   // Display Settings //
   tellraw('@a', '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
   
-  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1..}]').run.tellraw('@a', {"text":"DeathSwap+","color":"gold"})
-  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1..}]').run.tellraw('@a', [{"text":"[!] ","color":"yellow"},{"text":"Click here to start the game!","color":"gray","clickEvent":{"action":"run_command","value":"/trigger Select set 1"}}])
-  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1..}]').run.tellraw('@a', '')
-  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1..}]').run.tellraw('@a', [{"text":"[!] ","color":"yellow"},{"text":"Click here to change the settings!","color":"gray","clickEvent":{"action":"run_command","value":"/trigger Select set 2"}}])
+  execute.if.entity('@e[type=minecraft:armor_stand,name=Values]').run.tellraw('@a', {"text":"DeathSwap+","color":"gold"})
+  execute.if.entity('@e[type=minecraft:armor_stand,name=Values]').run.tellraw('@a', [{"text":"[!] ","color":"yellow"},{"text":"Click here to start the game!","color":"gray","clickEvent":{"action":"run_command","value":"/trigger Select set 1"}}])
+  execute.if.entity('@e[type=minecraft:armor_stand,name=Values]').run.tellraw('@a', '')
+  execute.if.entity('@e[type=minecraft:armor_stand,name=Values]').run.tellraw('@a', [{"text":"[!] ","color":"yellow"},{"text":"Click here to change the settings!","color":"gray","clickEvent":{"action":"run_command","value":"/trigger Select set 2"}}])
   playsound('minecraft:ui.button.click', 'master', '@p', ['~ ~ ~'], 100, 2)
 
 }, {runOnLoad: true})
