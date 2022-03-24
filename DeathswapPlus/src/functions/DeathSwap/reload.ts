@@ -19,6 +19,7 @@ MCFunction('reload', () => {
   recipe.give('@a', '*')
 
   kill('@e[type=minecraft:armor_stand,name=Values]')
+  kill('@e[type=minecraft:armor_stand,name=Border]')
   
   scoreboard.objectives.remove('S_AnSwap')
   scoreboard.objectives.remove('Death')
@@ -32,6 +33,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.remove('Players')
   scoreboard.objectives.remove('PlayersDeath')
   scoreboard.objectives.remove('S_Achievements')
+  scoreboard.objectives.remove('S_Border')
   scoreboard.objectives.remove('S_ShowTimer')
   scoreboard.objectives.remove('S_Hunger')
   scoreboard.objectives.remove('Select')
@@ -39,6 +41,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.remove('Time')
   scoreboard.objectives.remove('Timer')
   scoreboard.objectives.remove('S_TimerCount')
+  scoreboard.objectives.remove('S_ValidZone')
   scoreboard.objectives.remove('TimerMins')
   scoreboard.objectives.remove('TimerSecs')
 
@@ -57,6 +60,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.add('Players', 'dummy', 'Player count')
   scoreboard.objectives.add('PlayersDeath', 'dummy')
   scoreboard.objectives.add('S_Achievements', 'dummy')
+  scoreboard.objectives.add('S_Border', 'dummy')
   scoreboard.objectives.add('S_ShowTimer', 'dummy')
   scoreboard.objectives.add('S_Hunger', 'dummy')
   scoreboard.objectives.add('Select', 'trigger')
@@ -64,6 +68,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.add('Time', 'dummy', [{"text":"--=","color":"dark_gray","bold":"false"},{"text":"TIME","color":"white","bold":"true"},{"text":"=--","color":"dark_gray","bold":"false"}])
   scoreboard.objectives.add('Timer', 'dummy', 'Timer')
   scoreboard.objectives.add('S_TimerCount', 'dummy')
+  scoreboard.objectives.add('S_ValidZone', 'dummy')
   scoreboard.objectives.add('TimerMins', 'dummy')
   scoreboard.objectives.add('TimerSecs', 'dummy')
 
@@ -90,8 +95,10 @@ MCFunction('reload', () => {
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'Players', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'Swap', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_TimerCount', 6000)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ValidZone', 1)
 
   // Default Settings
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Border', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Achievements', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Nether', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_AnSwap', 0)

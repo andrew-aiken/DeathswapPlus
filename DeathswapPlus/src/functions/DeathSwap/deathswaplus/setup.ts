@@ -25,6 +25,7 @@ MCFunction('deathswaplus/setup', () => {
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamemode('survival', '@a[gamemode=adventure]')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.advancement.revoke('@a').everything()
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.scoreboard.players.set('@a', 'Death', 0)
+  execute.if.entity('@e[name=Values,scores={S_Border=0,Players=2..}]').run.functionCmd('deathswapplus:deathswaplus/create_boundary')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').at('@a').run.playsound('minecraft:entity.arrow.hit_player', 'master', '@p', ['~ ~ ~'], 100, 1)
 
   // No enough Players //
