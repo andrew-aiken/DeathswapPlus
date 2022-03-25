@@ -1,4 +1,4 @@
-import { MCFunction, scoreboard, gamerule, gamemode, advancement, recipe, kill, tellraw, team, summon, forceload, playsound, execute } from 'sandstone'
+import { MCFunction, scoreboard, gamerule, gamemode, advancement, recipe, kill, tellraw, team, summon, forceload, playsound, execute, worldborder } from 'sandstone'
 
 var PlayerTeamCount:number = 16;
 
@@ -42,8 +42,11 @@ MCFunction('reload', () => {
   scoreboard.objectives.remove('Timer')
   scoreboard.objectives.remove('S_TimerCount')
   scoreboard.objectives.remove('S_ValidZone')
+  scoreboard.objectives.remove('S_ResetZone')
   scoreboard.objectives.remove('TimerMins')
   scoreboard.objectives.remove('TimerSecs')
+  
+  worldborder.set(1000000, 0)
 
   // Setup objectives //
   scoreboard.objectives.add('Hearts', 'health')
@@ -69,6 +72,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.add('Timer', 'dummy', 'Timer')
   scoreboard.objectives.add('S_TimerCount', 'dummy')
   scoreboard.objectives.add('S_ValidZone', 'dummy')
+  scoreboard.objectives.add('S_ResetZone', 'dummy')
   scoreboard.objectives.add('TimerMins', 'dummy')
   scoreboard.objectives.add('TimerSecs', 'dummy')
 
@@ -81,14 +85,9 @@ MCFunction('reload', () => {
   team.remove('teamless')
   team.add('teamless', 'teamless')
   team.join('teamless', '@a')
-  //team.join('1', '@r[team=teamless]')
 
-  /*
   summon('minecraft:armor_stand', ['0', '0', '0'], {CustomName:"{\"text\":\"Values\"}",Marker:1,Invisible:1,NoGravity:1})
   forceload.add(['0', '0'], ['0', '0'])
-  */
-  summon('minecraft:armor_stand', ['16', '-32', '-9'], {CustomName:"{\"text\":\"Values\"}",Marker:1,Invisible:1,NoGravity:1})
-
 
   // Setup Variables //
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'GameStatus', 0)
@@ -96,6 +95,7 @@ MCFunction('reload', () => {
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'Swap', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_TimerCount', 6000)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ValidZone', 1)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ResetZone', 0)
 
   // Default Settings
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Border', 0)

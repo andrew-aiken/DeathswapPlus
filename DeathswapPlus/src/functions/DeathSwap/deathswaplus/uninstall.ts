@@ -1,9 +1,10 @@
-import { MCFunction, gamerule, advancement, kill, datapack, scoreboard, team, tellraw, gamemode, tell } from 'sandstone'
+import { MCFunction, gamerule, advancement, kill, datapack, scoreboard, team, tellraw, gamemode, worldborder, forceload } from 'sandstone'
 
 var PlayerTeamCount:number = 16;
 
 MCFunction('deathswaplus/uninstall', () => {
 
+  forceload.removeAll()
 
   //gamerule('forgiveDeadPlayers', false)
   //gamerule('universalAnger', true)
@@ -39,9 +40,12 @@ MCFunction('deathswaplus/uninstall', () => {
   scoreboard.objectives.remove('Timer')
   scoreboard.objectives.remove('S_TimerCount')
   scoreboard.objectives.remove('S_ValidZone')
+  scoreboard.objectives.remove('S_ResetZone')
   scoreboard.objectives.remove('TimerMins')
   scoreboard.objectives.remove('TimerSecs')
   scoreboard.objectives.remove('S_DeathSwapPlus')
+
+  worldborder.set(1000000, 0)
 
   team.remove('teamless')
   for (var teamNum:any = 0; teamNum < PlayerTeamCount ; teamNum++) {

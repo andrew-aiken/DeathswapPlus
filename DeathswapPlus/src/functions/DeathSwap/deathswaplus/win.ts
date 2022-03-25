@@ -7,11 +7,11 @@ MCFunction('deathswaplus/win', () => {
   execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').at('@p[gamemode=survival]').run.playsound('minecraft:ui.toast.challenge_complete', 'block', '@p[gamemode=survival]', ['~ ~ ~'], 100, 1)
   execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.title('@a').actionbar({"text":"Type ''/reload'' to play again!","color":"gold"})
 
-  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values', 'GameStart', 0)
+  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'GameStart', 0)
   execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.scoreboard.players.set('Seconds', 'Time', 0)
   execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.scoreboard.players.set('Minutes', 'Time', 0)
-  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values', 'TimerSecs', 0)
-  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values', 'TimerMins', 0)
+  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'TimerSecs', 0)
+  execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'TimerMins', 0)
 
 
   execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={Players=1,PlayersDeath=1..}]').run.tellraw('@a', {"text":"DeathSwap+","color":"gold"})

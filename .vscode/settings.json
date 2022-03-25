@@ -13,6 +13,8 @@
 		"minecraft",
 		"playsound",
 		"setblock",
-		"tellraw"
+		"setworldspawn",
+		"tellraw",
+		"worldborder"
 	]
 }
