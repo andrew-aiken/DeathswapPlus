@@ -12,7 +12,6 @@ MCFunction('deathswaplus/create_boundary', () => {
   execute.at('@r').run.summon('minecraft:armor_stand', ['~100', '63', '~'], {CustomName:"{\"text\":\"Border\"}",Marker:1,Invisible:1,NoGravity:1})
   execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.tp('@a',  ['~', '~300', '~'])
   
-  //execute.if.score('@e[type=minecraft:armor_stand,name=Values,limit=1]', 'S_ValidZone', 'matches', 1).run.functionCmd('deathswapplus:deathswaplus/create_boundary/while')
   execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={S_ValidZone=1..}]').run.functionCmd('deathswapplus:deathswaplus/create_boundary/while')
 
   //scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ValidZone', 1)
@@ -34,9 +33,6 @@ MCFunction('deathswaplus/create_boundary/while', async () => {
   execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={S_ResetZone=1,S_ValidZone=1}]').run.functionCmd('deathswapplus:deathswaplus/create_boundary/while')
   execute.if.entity('@e[type=minecraft:armor_stand,name=Values,scores={S_ValidZone=0}]').run.functionCmd('deathswapplus:deathswaplus/create_boundary/border')
 })
-
-// .if.block(['~', '~-0.5', '~'], 'minecraft:water')
-
 
 MCFunction('deathswaplus/create_boundary/border', async () => {
   say('border called')
