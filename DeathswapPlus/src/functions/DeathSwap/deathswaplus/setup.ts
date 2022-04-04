@@ -9,7 +9,7 @@ MCFunction('deathswaplus/setup', () => {
   team.join('teamless', '@a')
   for (var teamNum:any = 0; teamNum < PlayerTeamCount ; teamNum++) {
     team.join(teamNum, '@r[team=teamless]')
-    execute.if.entity(`@a[team=${teamNum}]`).run.scoreboard.players.set('@e[type=armor_stand,name=Values]', 'Players', teamNum + 2)
+    execute.if.entity(`@a[team=${teamNum}]`).run.scoreboard.players.set('@e[type=armor_stand,name=Values]', 'Players', teamNum)
   }
 
   scoreboard.players.set('@e[type=armor_stand,name=Values]', 'Swap', 0)

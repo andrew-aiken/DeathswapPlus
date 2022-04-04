@@ -25,7 +25,7 @@ MCFunction('deathswaplus/timer/timescore', () => {
   execute.if.entity('@e[type=armor_stand,name=Values,scores={Swap=1,GameStatus=1}]').run.scoreboard.players.set('Minutes', 'Time', 0)
   execute.if.entity('@e[type=armor_stand,name=Values,scores={Swap=1,GameStatus=1}]').run.scoreboard.players.set('Seconds', 'Time', 0)
 
-  execute.if.entity('@e[type=armor_stand,name=Values,scores={GameStatus=1}]').run.functionCmd('deathswapplus:deathswaplus/players/config')
+  execute.if.entity('@e[type=armor_stand,name=Values,scores={Swap=1,GameStatus=1}]').run.functionCmd('deathswapplus:deathswaplus/players/config')
 
   execute.if.entity('@e[type=armor_stand,name=Values,scores={Swap=1,GameStatus=1}]').run.tellraw('@a', {"text":"Swapping!","bold":"true","color":"white"})
   execute.if.entity('@e[type=armor_stand,name=Values,scores={Swap=1,GameStatus=1}]').run.scoreboard.players.set('@e[type=armor_stand,name=Values]', 'Timer', 0)
