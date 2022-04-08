@@ -1,5 +1,6 @@
 {
 	"cSpell.words": [
+		"actionbar",
 		"datapack",
 		"datapacks",
 		"deathswap",
@@ -14,6 +15,7 @@
 		"playsound",
 		"setblock",
 		"setworldspawn",
+		"teamless",
 		"tellraw",
 		"worldborder"
 	]

@@ -1,4 +1,4 @@
-import { MCFunction, scoreboard, gamerule, gamemode, advancement, recipe, kill, tellraw, team, summon, forceload, playsound, execute, worldborder } from 'sandstone'
+import { MCFunction, scoreboard, gamerule, gamemode, advancement, recipe, kill, tellraw, team, summon, forceload, playsound, execute, worldborder, effect } from 'sandstone'
 
 var PlayerTeamCount:number = 16;
 
@@ -9,11 +9,12 @@ MCFunction('reload', () => {
   gamerule('universalAnger', true)
   gamerule('doImmediateRespawn', true)
   gamerule('announceAdvancements', true)
-  //gamerule('commandBlockOutput', false)
+  gamerule('commandBlockOutput', false)
   gamerule('sendCommandFeedback', false)
-  //gamemode('adventure', '@a')
+  gamemode('adventure', '@a')
 
-  
+  effect.clear('@a')
+
   // Remove objectives & advancement from last game //
   advancement.revoke('@a').everything()
   recipe.give('@a', '*')

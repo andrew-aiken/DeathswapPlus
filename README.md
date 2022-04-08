@@ -1,38 +1,35 @@
 # Deathswap+
+
 Minecraft datapack addon for deathswap
 
-## UPDATES ##
-- DeathSwap+ Datapack <br>
-- Blood Gold <br>
-- Nuke <br>
-- Fireballz! <br>
-- Grinder
+## UPDATES
 
+- DeathSwap+ Datapack
 
-## How 2 Play ##
+## How 2 Play
 
 Description: This minigame is called death swap. Every few minutes, you will switch positions with the other player (Up to 8 players). The point is to make it so that when
 the positions are swapped you kill the opponent by trapping em. The last player to live is the winner.
 
 Source of Idea: Back in 2013 a minecraft youtuber by the name Sethbling created this game.
 
-<br>
-
-## Resource Pack ##
+## Resource Pack
 
 Use the DeathSwap+ Datapack
 Download it [HERE](https://raw.githubusercontent.com/Mad-Chicken/DeathSwapPlus_ResourcePack/master/RP.zip?raw\=true) <br>
 View the datapack https://github.com/Mad-Chicken/DeathSwapPlus_ResourcePack <br>
 SHA1 of DP `2F9E312E2451822C6EEEBF504DF244983E2CA4D4`
 
-<br>
-
-## Quick Start ##
+## Quick Start
 
 1. Download or clone repository
-```
+
+```sh
+
 $ git clone https://github.com/Mad-Chicken/DeathswapPlus.git
+
 ```
+
 2. Copy the downloaded files into your minecraft worlds datapack folder.
 
 3. In the game type `/reload`
@@ -84,17 +81,14 @@ Trees drop apples was found at: https://www.planetminecraft.com/data-pack/all-tr
 Fireball & nuke was implemented from Timber Forge:
 https://www.youtube.com/channel/UC606Jh3yjNj40dcVuMwtUCw
 
-
-
-
-Crafts:
+## Crafts
 
 lightning rod
   use
 copper
   use
 
-Spore blossem
+Spore blossom
   Under you get poison?
 
 Dripstone
