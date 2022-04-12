@@ -1,6 +1,7 @@
-import { MCFunction, execute } from 'sandstone'
+import { MCFunction, execute, say } from 'sandstone'
 
 MCFunction('deathswaplus/timer/600', () => {
+  say('TEST')
   for (var timeCount:any = 10; timeCount > 0 ; timeCount-- ) {
     execute.if.entity(`@e[type=armor_stand,name=Values,scores={S_AnSwap=1,Timer=${600 - (timeCount * 20)},S_TimerCount=600,GameStatus=1}]`).run.tellraw('@a', {"text":`Swapping in ${timeCount} seconds!`,"color":"red","bold":"true"})
   }
