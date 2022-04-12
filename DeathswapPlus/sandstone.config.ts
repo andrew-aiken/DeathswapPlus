@@ -6,7 +6,7 @@ export default {
   formatVersion: 9,
   namespace: 'deathswapplus',
   packUid: 'oSr1maYV',
-  saveOptions: { path: '/mnt/c/Users/aaiken/AppData/Roaming/.minecraft/saves/RealWorldTest/datapacks' },
+  saveOptions: { path: '/Users/aaiken/pub_repo/DS' },
   onConflict: {
     default: 'warn',
   },

@@ -29,6 +29,6 @@ https://www.reddit.com/r/MinecraftCommands/comments/l2h0c9/advancement_assistanc
 
 
 # TODO
-Clear inventory
-Swap armor stand naming issue use formatting : CustomName:'{"text":"Values"}'
-First round issue, second work
+- Clear inventory
+- Swap armor stand naming issue use formatting : CustomName:'{"text":"Values"}'
+- First round issue, second work

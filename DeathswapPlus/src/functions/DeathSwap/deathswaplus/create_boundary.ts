@@ -1,7 +1,10 @@
-import { say, MCFunction, execute, kill, sleep, scoreboard, title, forceload } from 'sandstone'
+import { say, MCFunction, execute, kill, sleep, scoreboard, title, worldborder, clear, effect } from 'sandstone'
 
 MCFunction('deathswaplus/create_boundary', () => {
   say("create_boundary")
+
+  worldborder.set(1000000, 0)
+
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ResetZone', 1)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ValidZone', 1)
   execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.forceload.remove(['~', '~'])
@@ -42,16 +45,17 @@ MCFunction('deathswaplus/create_boundary/border', async () => {
   say('border called')
   execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.setworldspawn(['~', '~', '~'])
   execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.worldborder.center(['~ ~'])
-  execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.worldborder.set(15, 0)
-  
-  execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.worldborder.damageBuffer(20)
+  worldborder.set(15, 0)
+  clear('@a')
 
-  execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.effect.give('@e', 'minecraft:resistance', 14, 255, true)
+  effect.give('@a', 'minecraft:resistance', 14, 255, true)
   execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.tp('@a', '~ ~300 ~')
+
+  worldborder.damageBuffer(20)
 
   await sleep('10s')
 
-  execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.effect.give('@e', 'minecraft:absorption', 30, 4, false)
+  effect.give('@a', 'minecraft:absorption', 30, 4, false)
   
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ResetZone', 0)
 
@@ -63,7 +67,7 @@ MCFunction('deathswaplus/create_boundary/border', async () => {
   await sleep('1s')
   title('@a').actionbar([{"text":"Start","color":"gold"}])
 
-  execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.worldborder.set(400, 0)
+  worldborder.set(400, 0)
 })
 
 /*
