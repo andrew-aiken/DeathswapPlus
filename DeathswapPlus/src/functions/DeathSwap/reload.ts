@@ -9,8 +9,8 @@ MCFunction('reload', () => {
   gamerule('universalAnger', true)
   gamerule('doImmediateRespawn', true)
   gamerule('announceAdvancements', true)
-  //gamerule('commandBlockOutput', false)
-  //gamerule('sendCommandFeedback', false)
+  gamerule('commandBlockOutput', true)
+  gamerule('sendCommandFeedback', true)
   gamemode('adventure', '@a')
 
   effect.clear('@a')
