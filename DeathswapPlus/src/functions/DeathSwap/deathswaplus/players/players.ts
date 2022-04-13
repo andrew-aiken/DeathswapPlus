@@ -1,4 +1,3 @@
-import { stringify } from 'querystring';
 import { MCFunction, execute, comment } from 'sandstone'
 
 var PlayerTeamCount:number = 16;
