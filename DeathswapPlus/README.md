@@ -26,9 +26,8 @@ https://www.sandstone.dev/
 
 https://www.reddit.com/r/MinecraftCommands/comments/l2h0c9/advancement_assistance/
 
+## TODO
 
-
-# TODO
-- Clear inventory
-- Swap armor stand naming issue use formatting : CustomName:'{"text":"Values"}'
+- ✅ Clear inventory
+- ✅ Swap armor stand naming issue use formatting : CustomName:'{"text":"Values"}'
 - First round issue, second work

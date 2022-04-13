@@ -20,7 +20,7 @@ MCFunction('deathswaplus/setup', () => {
 
   // Start the Game //
   execute.if.entity('@e[name=Values,scores={Players=2..}]').at('@a').run.playsound('minecraft:entity.arrow.hit_player', 'master', '@p', ['~ ~ ~'], 100, 1)
-  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.scoreboard.players.set('@e[type=armor_stand,name=Values]', 'GameStatus', 1)
+
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamerule('doDaylightCycle', true)
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamemode('survival', '@a')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.advancement.revoke('@a').everything()
