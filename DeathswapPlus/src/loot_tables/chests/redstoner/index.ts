@@ -123,6 +123,28 @@ LootTable('chests/redstoner', {
                         }
                     ]
                 },
+                {
+                    type: 'item',
+                    name: "minecraft:sculk_sensor",
+                    weight: 1,
+                    functions: [
+                        {
+                            function: 'set_count',
+                            count: 3
+                        }
+                    ]
+                },
+                {
+                    type: 'item',
+                    name: "minecraft:sculk_shrieker",
+                    weight: 1,
+                    functions: [
+                        {
+                            function: 'set_count',
+                            count: 8
+                        }
+                    ]
+                }
             ]
         }
     ]

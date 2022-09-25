@@ -76,6 +76,21 @@ LootTable('chests/all_egg_loot', {
                             }
                         }
                     ]
+                },
+                {
+                    type: 'item',
+                    name: "minecraft:warden_spawn_egg",
+                    weight: 4,
+                    functions: [
+                        {
+                            function: 'set_count',
+                            count: {
+                                type: "uniform",
+                                min: 1,
+                                max: 2
+                            }
+                        }
+                    ]
                 }
             ]
         },
