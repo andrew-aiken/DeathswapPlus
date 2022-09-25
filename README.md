@@ -14,18 +14,30 @@ Source of Idea: Back in 2013 a minecraft youtuber by the name [Sethbling](https:
 Use the DeathSwap+ Datapack
 [Download from this repository](https://github.com/andrew-aiken/DeathswapPlus/tree/version/1.19/ReasourcePack)
 
-## Quick Start
+## Installation
 
-1. Download or clone repository
+### Quick Start
+
+1. Download the latest release
+
+2. Move the ZIP into the minecraft worlds datapack folder
+
+### Build from Source
+
+1. Clone repository
 
 ```sh
-
-$ git clone https://github.com/Mad-Chicken/DeathswapPlus.git
-
+git clone https://github.com/Mad-Chicken/DeathswapPlus.git
 ```
 
-2. Copy the downloaded files into your minecraft worlds datapack folder.
-3. In the game type `/reload`
+2. Edit the `sandstone.config.ts` DeathswapPlus directory. Set `saveOptions.path` to the minecraft worlds datapack directory.
+
+3. In the same directory run the following commands
+
+```sh
+npm install
+npm run build
+```
 
 <br>
 
