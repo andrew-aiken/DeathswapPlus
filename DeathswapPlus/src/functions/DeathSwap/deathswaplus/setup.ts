@@ -25,7 +25,7 @@ MCFunction('deathswaplus/setup', () => {
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamemode('survival', '@a')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.advancement.revoke('@a').everything()
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.scoreboard.players.set('@a', 'Death', 0)
-  execute.if.entity('@e[name=Values,scores={Players=2..,S_Border=0}]').run.functionCmd('deathswapplus:deathswaplus/create_boundary')
+  execute.if.entity('@e[name=Values,scores={Players=2..,AutoBorder=0}]').run.functionCmd('deathswapplus:deathswaplus/create_boundary')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.tellraw('@a', [{"text":"[!]","color":"yellow"},{"text":" Game has started!","color":"gray"}])
 
   // No enough Players //

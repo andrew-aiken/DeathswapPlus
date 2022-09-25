@@ -31,7 +31,7 @@ MCFunction('deathswaplus/uninstall', () => {
   scoreboard.objectives.remove('Players')
   scoreboard.objectives.remove('PlayersDeath')
   scoreboard.objectives.remove('S_Achievements')
-  scoreboard.objectives.remove('S_Border')
+  // scoreboard.objectives.remove('S_Border')
   scoreboard.objectives.remove('S_ShowTimer')
   scoreboard.objectives.remove('S_Hunger')
   scoreboard.objectives.remove('Select')
@@ -44,6 +44,7 @@ MCFunction('deathswaplus/uninstall', () => {
   scoreboard.objectives.remove('TimerMins')
   scoreboard.objectives.remove('TimerSecs')
   scoreboard.objectives.remove('S_DeathSwapPlus')
+  scoreboard.objectives.remove('AutoBorder')
 
   worldborder.set(1000000, 0)
 

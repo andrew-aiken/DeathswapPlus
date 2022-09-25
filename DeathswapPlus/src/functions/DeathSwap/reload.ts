@@ -9,8 +9,8 @@ MCFunction('reload', () => {
   gamerule('universalAnger', true)
   gamerule('doImmediateRespawn', true)
   gamerule('announceAdvancements', true)
-  gamerule('commandBlockOutput', true)
-  gamerule('sendCommandFeedback', true)
+  gamerule('commandBlockOutput', false)
+  gamerule('sendCommandFeedback', false)
   gamemode('adventure', '@a')
 
   effect.clear('@a')
@@ -34,7 +34,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.remove('Players')
   scoreboard.objectives.remove('PlayersDeath')
   scoreboard.objectives.remove('S_Achievements')
-  scoreboard.objectives.remove('S_Border')
+  // scoreboard.objectives.remove('S_Border')
   scoreboard.objectives.remove('S_ShowTimer')
   scoreboard.objectives.remove('S_Hunger')
   scoreboard.objectives.remove('Select')
@@ -46,6 +46,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.remove('S_ResetZone')
   scoreboard.objectives.remove('TimerMins')
   scoreboard.objectives.remove('TimerSecs')
+  scoreboard.objectives.remove('AutoBorder')
   
   worldborder.set(1000000, 0)
 
@@ -64,7 +65,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.add('Players', 'dummy', 'Player count')
   scoreboard.objectives.add('PlayersDeath', 'dummy')
   scoreboard.objectives.add('S_Achievements', 'dummy')
-  scoreboard.objectives.add('S_Border', 'dummy')
+  // scoreboard.objectives.add('S_Border', 'dummy')
   scoreboard.objectives.add('S_ShowTimer', 'dummy')
   scoreboard.objectives.add('S_Hunger', 'dummy')
   scoreboard.objectives.add('Select', 'trigger')
@@ -76,6 +77,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.add('S_ResetZone', 'dummy')
   scoreboard.objectives.add('TimerMins', 'dummy')
   scoreboard.objectives.add('TimerSecs', 'dummy')
+  scoreboard.objectives.add('AutoBorder', 'dummy')
 
   // Setup Teams //
   for (var teamNum:any = 0; teamNum < PlayerTeamCount ; teamNum++) {
@@ -99,7 +101,7 @@ MCFunction('reload', () => {
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_ResetZone', 0)
 
   // Default Settings
-  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Border', 0)
+  // scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Border', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Achievements', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_Nether', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_AnSwap', 0)
@@ -109,6 +111,7 @@ MCFunction('reload', () => {
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_FireDamage', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_NaturalRegen', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_DeathSwapPlus', 0)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'AutoBorder', 1)
 
   scoreboard.players.set('Seconds', 'Time', 0)
   scoreboard.players.set('Minutes', 'Time', 0)

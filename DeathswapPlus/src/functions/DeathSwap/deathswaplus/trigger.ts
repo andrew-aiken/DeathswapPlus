@@ -33,6 +33,9 @@ Select
 21 : Enable DeathSwap+
 22 : Disable DeathSwap+
 
+30 : Disable Auto border (AutoBorder)
+31 : Enable Auto border (AutoBorder)
+
 40 : 0.5 minutes
 41 : 1 minutes
 42 : 2 minutes
