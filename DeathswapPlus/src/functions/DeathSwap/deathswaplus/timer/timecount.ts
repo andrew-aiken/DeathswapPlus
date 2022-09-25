@@ -1,4 +1,4 @@
-import { MCFunction, execute, say } from 'sandstone'
+import { MCFunction, execute } from 'sandstone'
 
 MCFunction('deathswaplus/timer/600', () => {
   for (var timeCount:any = 10; timeCount > 0 ; timeCount-- ) {

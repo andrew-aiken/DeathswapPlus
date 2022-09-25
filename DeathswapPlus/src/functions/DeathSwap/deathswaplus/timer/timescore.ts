@@ -4,7 +4,7 @@ MCFunction('deathswaplus/timer/timescore', () => {
   execute.if.entity('@e[type=armor_stand,name=Values,scores={GameStatus=1}]').run.scoreboard.players.add('@e[type=armor_stand,name=Values]', 'TimerSecs', 1)
   execute.if.entity('@e[type=armor_stand,name=Values,scores={GameStatus=1}]').run.scoreboard.players.add('@e[type=armor_stand,name=Values]', 'TimerMins', 1)
 
-  execute.if.entity('@e[type=armor_stand,name=Values,scores={TimerSecs=20,GameStatus=1}]').run.scoreboard.players.add('Seconds', 'Time', 0)
+  execute.if.entity('@e[type=armor_stand,name=Values,scores={TimerSecs=20,GameStatus=1}]').run.scoreboard.players.add('Seconds', 'Time', 1)
   execute.if.entity('@e[type=armor_stand,name=Values,scores={TimerSecs=20,GameStatus=1}]').run.scoreboard.players.set('@e[type=armor_stand,name=Values]', 'TimerSecs', 0)
   execute.if.entity('@e[type=armor_stand,name=Values,scores={TimerMins=1200,GameStatus=1}]').run.scoreboard.players.set('Minutes', 'Time', 1)
   execute.if.entity('@e[type=armor_stand,name=Values,scores={TimerMins=1200,GameStatus=1}]').run.scoreboard.players.set('Seconds', 'Time', 0)
