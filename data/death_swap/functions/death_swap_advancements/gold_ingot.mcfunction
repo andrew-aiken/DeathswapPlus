@@ -1,1 +1,0 @@
-execute as @s at @s run give @s minecraft:gold_ingot{display:{Name:'{"text":"Blood Gold","color":"red","italic":true}'},CustomModelData:510} 9

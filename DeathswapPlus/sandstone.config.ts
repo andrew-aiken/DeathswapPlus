@@ -6,7 +6,7 @@ export default {
   formatVersion: 9,
   namespace: 'deathswapplus',
   packUid: 'oSr1maYV',
-  saveOptions: { path: '/Users/aaiken/pub_repo/DS' },
+  saveOptions: { path: '/mnt/d/pack' },
   onConflict: {
     default: 'warn',
   },
