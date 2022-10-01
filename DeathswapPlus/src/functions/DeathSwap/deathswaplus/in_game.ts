@@ -1,4 +1,4 @@
-import { say, MCFunction, execute } from 'sandstone'
+import { MCFunction, execute } from 'sandstone'
 
 MCFunction('deathswaplus/in_game', () => {
   //say("in_game")

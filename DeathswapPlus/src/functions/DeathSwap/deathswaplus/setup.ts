@@ -21,13 +21,18 @@ MCFunction('deathswaplus/setup', () => {
   // Start the Game //
   execute.if.entity('@e[name=Values,scores={Players=2..}]').at('@a').run.playsound('minecraft:entity.arrow.hit_player', 'master', '@p', ['~ ~ ~'], 100, 1)
 
-  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamerule('doDaylightCycle', true)
-  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamemode('survival', '@a')
+  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.effect.clear('@a')
+  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.kill('@e[type=minecraft:item]')
+  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.kill('@e[type=minecraft:experience_orb]')
+  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.experience.set('@a', 0, 'level')
+  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.experience.set('@a', 0, 'points')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.advancement.revoke('@a').everything()
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.scoreboard.players.set('@a', 'Death', 0)
   execute.if.entity('@e[name=Values,scores={Players=2..,AutoBorder=0}]').run.functionCmd('deathswapplus:deathswaplus/create_boundary')
   execute.if.entity('@e[name=Values,scores={Players=2..,AutoBorder=1}]').run.scoreboard.players.set('@e[type=armor_stand,name="Values"]', 'GameStatus', 1)
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.tellraw('@a', [{"text":"[!]","color":"yellow"},{"text":" Game has started!","color":"gray"}])
+  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamerule('doDaylightCycle', true)
+  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamemode('survival', '@a')
 
   // No enough Players //
   execute.if.entity('@e[name=Values,scores={Players=1}]').at('@a').run.playsound('minecraft:block.anvil.place', 'master', '@p', ['~ ~ ~'], 100, 0)

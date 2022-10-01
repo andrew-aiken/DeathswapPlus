@@ -46,7 +46,6 @@ MCFunction('deathswaplus/create_boundary/border', async () => {
   execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.setworldspawn(['~', '~', '~'])
   execute.at('@e[type=minecraft:armor_stand,name=Border,limit=1]').run.worldborder.center(['~ ~'])
   worldborder.set(15, 0)
-  clear('@a')
 
   gamerule('fallDamage', false)
   effect.give('@a', 'minecraft:resistance', 16, 255, true)
@@ -73,7 +72,7 @@ MCFunction('deathswaplus/create_boundary/border', async () => {
 
   scoreboard.players.set('@e[type=armor_stand,name="Values"]', 'GameStatus', 1)
 
-  execute.if.entity('@e[scores={Select=15}]').run.gamerule('fallDamage', false)
+  // execute.if.entity('@e[scores={Select=15}]').run.gamerule('fallDamage', false)
   execute.if.entity('@e[scores={Select=16}]').run.gamerule('fallDamage', true)
 
   worldborder.set(400, 0)
