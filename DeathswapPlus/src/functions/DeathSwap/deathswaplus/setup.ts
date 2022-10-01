@@ -24,7 +24,7 @@ MCFunction('deathswaplus/setup', () => {
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.effect.clear('@a')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.kill('@e[type=minecraft:item]')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.kill('@e[type=minecraft:experience_orb]')
-  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.experience.set('@a', 0, 'level')
+  execute.if.entity('@e[name=Values,scores={Players=2..}]').run.experience.set('@a', 0, 'levels')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.experience.set('@a', 0, 'points')
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.advancement.revoke('@a').everything()
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.scoreboard.players.set('@a', 'Death', 0)
