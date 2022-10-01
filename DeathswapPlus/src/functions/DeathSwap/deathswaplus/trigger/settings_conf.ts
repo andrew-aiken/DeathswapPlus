@@ -77,6 +77,12 @@ MCFunction('deathswaplus/trigger/settings_conf', () => {
   // Enable Auto Border //
   execute.if.entity('@e[scores={Select=31}]').run.scoreboard.players.set('@e[name=Values]', 'AutoBorder', 0)
 
+    // Disable Auto Border //
+    execute.if.entity('@e[scores={Select=32}]').run.scoreboard.players.set('@e[name=Values]', 'SpeedyStart', 1)
+
+    // Enable Auto Border //
+    execute.if.entity('@e[scores={Select=33}]').run.scoreboard.players.set('@e[name=Values]', 'SpeedyStart', 0)
+
   // Game Time Count //
   execute.if.entity('@e[scores={Select=40}]').run.scoreboard.players.set('@e[name=Values]', 'S_TimerCount', 600)
   execute.if.entity('@e[scores={Select=41}]').run.scoreboard.players.set('@e[name=Values]', 'S_TimerCount', 1200)

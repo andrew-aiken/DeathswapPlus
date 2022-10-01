@@ -35,6 +35,9 @@ Select
 
 30 : Disable Auto border (AutoBorder)
 31 : Enable Auto border (AutoBorder)
+32 : Disable Speedy Start (SpeedyStart)
+33 : Enable Speedy Start
+
 
 40 : 0.5 minutes
 41 : 1 minutes

@@ -67,9 +67,6 @@ MCFunction('deathswaplus/create_boundary/border', async () => {
   await sleep('1s')
   title('@a').actionbar([{"text":"Start","color":"gold"}])
 
-  effect.give('@a', 'minecraft:absorption', 30, 4, false)
-  effect.give('@a', 'minecraft:speed', 16, 2, false)
-
   scoreboard.players.set('@e[type=armor_stand,name="Values"]', 'GameStatus', 1)
 
   // execute.if.entity('@e[scores={Select=15}]').run.gamerule('fallDamage', false)

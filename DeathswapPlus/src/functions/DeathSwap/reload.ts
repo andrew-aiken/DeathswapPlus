@@ -47,6 +47,7 @@ MCFunction('reload', () => {
   scoreboard.objectives.remove('TimerMins')
   scoreboard.objectives.remove('TimerSecs')
   scoreboard.objectives.remove('AutoBorder')
+  scoreboard.objectives.remove('SpeedyStart')
   
   worldborder.set(1000000, 0)
 
@@ -78,6 +79,8 @@ MCFunction('reload', () => {
   scoreboard.objectives.add('TimerMins', 'dummy')
   scoreboard.objectives.add('TimerSecs', 'dummy')
   scoreboard.objectives.add('AutoBorder', 'dummy')
+  scoreboard.objectives.add('SpeedyStart', 'dummy')
+
 
   // Setup Teams //
   for (var teamNum:any = 0; teamNum < PlayerTeamCount ; teamNum++) {
@@ -112,6 +115,7 @@ MCFunction('reload', () => {
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_NaturalRegen', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'S_DeathSwapPlus', 0)
   scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'AutoBorder', 1)
+  scoreboard.players.set('@e[type=minecraft:armor_stand,name=Values]', 'SpeedyStart', 0)
 
   scoreboard.players.set('Seconds', 'Time', 0)
   scoreboard.players.set('Minutes', 'Time', 0)

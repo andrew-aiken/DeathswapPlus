@@ -33,6 +33,8 @@ MCFunction('deathswaplus/setup', () => {
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.tellraw('@a', [{"text":"[!]","color":"yellow"},{"text":" Game has started!","color":"gray"}])
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamerule('doDaylightCycle', true)
   execute.if.entity('@e[name=Values,scores={Players=2..}]').run.gamemode('survival', '@a')
+  execute.if.entity('@e[name=Values,scores={Players=2..,SpeedyStart=0}]').run.effect.give('@a', 'minecraft:absorption', 30, 4, false)
+  execute.if.entity('@e[name=Values,scores={Players=2..,SpeedyStart=0}]').run.effect.give('@a', 'minecraft:speed', 16, 2, false)
 
   // No enough Players //
   execute.if.entity('@e[name=Values,scores={Players=1}]').at('@a').run.playsound('minecraft:block.anvil.place', 'master', '@p', ['~ ~ ~'], 100, 0)

@@ -45,6 +45,7 @@ MCFunction('deathswaplus/uninstall', () => {
   scoreboard.objectives.remove('TimerSecs')
   scoreboard.objectives.remove('S_DeathSwapPlus')
   scoreboard.objectives.remove('AutoBorder')
+  scoreboard.objectives.remove('SpeedyStart')
 
   worldborder.set(1000000, 0)
 
